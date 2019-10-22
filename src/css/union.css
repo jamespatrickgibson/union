@@ -1,0 +1,62 @@
+/*! Union v0.0.1 | https://github.com/jamespatrickgibson/union */
+
+@import url('destyle.css');
+
+/* Variables & Tokens
+   ========================================================================== */
+:root {
+  /* Type */
+  --family-primary: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-bold: 600;
+
+  /* Space */
+  --space-unit: 1rem;                   /* 16pt (px) */
+
+  --space-xxs: var(--space-unit / 8);   /* 2pt (px) */
+  --space-xs: var(--space-unit / 4);    /* 4pt (px) */
+  --space-s: var(--space-unit / 2);     /* 8pt (px) */
+  --space-m: var(--space-unit);         /* 16pt (px) */
+  --space-l: var(--space-unit * 2);     /* 32pt (px) */
+  --space-xl: var(--space-unit * 4);    /* 64pt (px) */
+  --space-xxl: var(--space-unit * 8);   /* 128pt (px) */
+
+  /* Responsive */
+  --desktop: 60rem;   /* 960px */
+
+  /* Color: Neutral */
+  --color-white:    hsl(0, 0%, 100%);
+  --color-grey-050: hsl(0, 0%, 97%);
+  --color-grey-100: hsl(0, 0%, 88%);
+  --color-grey-200: hsl(0, 0%, 81%);
+  --color-grey-300: hsl(0, 0%, 69%);
+  --color-grey-400: hsl(0, 0%, 62%);
+  --color-grey-500: hsl(0, 0%, 50%);
+  --color-grey-600: hsl(0, 0%, 38%);
+  --color-grey-700: hsl(0, 0%, 32%);
+  --color-grey-800: hsl(0, 0%, 23%);
+  --color-grey-900: hsl(0, 0%, 13%);
+  --color-black:    hsl(0, 0%, 0%);
+
+  /* Color: Primary */
+  --color-primary-050: hsl(240, 100%, 95%);
+  --color-primary-100: hsl(240, 100%, 90%);
+  --color-primary-200: hsl(240, 100%, 80%);
+  --color-primary-300: hsl(240, 100%, 70%);
+  --color-primary-400: hsl(240, 100%, 60%);
+  --color-primary-500: hsl(240, 100%, 50%);
+  --color-primary-600: hsl(240, 100%, 40%);
+  --color-primary-700: hsl(240, 100%, 30%);
+  --color-primary-800: hsl(240, 100%, 20%);
+  --color-primary-900: hsl(240, 100%, 10%);
+}
+
+/* Base
+   ========================================================================== */
+body {
+  font-family: var(--family-primary);
+  padding: var(--space-m);
+  background-color: var(--color-grey-050);
+  color: var(--color-grey-900);
+}
