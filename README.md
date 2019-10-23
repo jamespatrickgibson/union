@@ -1,5 +1,5 @@
-# union
-A standards manual and style kit for screens
+# union.
+A design style boilerplate for creating scalable design architecture in any framework.
 
 ## Authors
 
