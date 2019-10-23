@@ -4,7 +4,7 @@
   "description": "A standards manual and style kit for screens",
   "main": "index.js",
   "scripts": {
-    "serve": "(http-server ./docs) & sass --watch src/scss/docs.scss docs/css/docs.css"
+    "serve": "(live-server ./docs) & sass --watch src/scss/docs.scss docs/css/docs.css"
   },
   "repository": {
     "type": "git",

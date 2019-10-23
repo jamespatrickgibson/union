@@ -560,7 +560,6 @@ body {
 
 /* Components
    ========================================================================== */
-/* Text Container */
 .un-text-container > * + * {
   margin-top: var(--space-m);
 }
@@ -609,7 +608,6 @@ body {
   letter-spacing: -0.018em;
 }
 
-/* Subheadings */
 .un-subheading-01 {
   font-size: var(--type-scale-03);
   font-weight: var(--weight-bold);
