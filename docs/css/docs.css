@@ -544,6 +544,10 @@ template {
   --color-primary-900: hsl(240, 100%, 10%);
 }
 
+/* Map Design Tokens to SCSS Variables for easier SCSS design
+   ========================================================================== */
+/* Mixins
+   ========================================================================== */
 /* Base Styling
    ========================================================================== */
 html {
@@ -565,47 +569,48 @@ body {
 }
 
 /* Headings */
-.un-heading-07 {
-  font-size: var(--type-scale-11);
+.un-heading-01 {
+  font-size: var(--type-scale-05);
+  letter-spacing: -0.018em;
   font-weight: var(--weight-bold);
-  line-height: calc(var(--baseline-scale-unit) * 10);
-  letter-spacing: -0.022em;
 }
 
-.un-heading-06 {
-  font-size: var(--type-scale-10);
+.un-heading-02 {
+  font-size: var(--type-scale-06);
+  letter-spacing: -0.019em;
   font-weight: var(--weight-bold);
+}
+
+.un-heading-03 {
+  font-size: var(--type-scale-07);
+  letter-spacing: -0.021em;
+  font-weight: var(--weight-bold);
+}
+
+.un-heading-04 {
+  font-size: var(--type-scale-08);
   letter-spacing: -0.022em;
+  font-weight: var(--weight-bold);
 }
 
 .un-heading-05 {
   font-size: var(--type-scale-09);
   font-weight: var(--weight-bold);
   letter-spacing: -0.022em;
+  font-weight: var(--weight-bold);
 }
 
-.un-heading-04 {
-  font-size: var(--type-scale-08);
-  font-weight: var(--weight-bold);
+.un-heading-06 {
+  font-size: var(--type-scale-10);
   letter-spacing: -0.022em;
+  font-weight: var(--weight-bold);
 }
 
-.un-heading-03 {
-  font-size: var(--type-scale-07);
+.un-heading-07 {
+  font-size: var(--type-scale-11);
+  line-height: calc($baseline-scale-unit * 10);
+  letter-spacing: -0.022em;
   font-weight: var(--weight-bold);
-  letter-spacing: -0.021em;
-}
-
-.un-heading-02 {
-  font-size: var(--type-scale-06);
-  font-weight: var(--weight-bold);
-  letter-spacing: -0.019em;
-}
-
-.un-heading-01 {
-  font-size: var(--type-scale-05);
-  font-weight: var(--weight-bold);
-  letter-spacing: -0.018em;
 }
 
 .un-subheading-01 {
@@ -640,7 +645,7 @@ body {
 
 /* Main Nav */
 .main-nav {
-  height: calc(var(--space-unit) * 3);
+  height: calc($space-unit * 3);
   padding: var(--space-m);
   background: var(--color-grey-900);
   color: var(--color-white);

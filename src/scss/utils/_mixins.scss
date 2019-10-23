@@ -1,0 +1,30 @@
+@mixin text-preset-01 {
+  font-size: $type-scale-05;
+  letter-spacing: -0.018em;
+}
+@mixin text-preset-02 {
+  font-size: $type-scale-06;
+  letter-spacing: -0.019em;
+}
+@mixin text-preset-03 {
+  font-size: $type-scale-07;
+  letter-spacing: -0.021em;
+}
+@mixin text-preset-04 {
+  font-size: $type-scale-08;
+  letter-spacing: -0.022em;
+}
+@mixin text-preset-05 {
+  font-size: $type-scale-09;
+  font-weight: $weight-bold;
+  letter-spacing: -0.022em;
+}
+@mixin text-preset-06 {
+  font-size: $type-scale-10;
+  letter-spacing: -0.022em;
+}
+@mixin text-preset-07 {
+  font-size: $type-scale-11;
+  line-height: calc($baseline-scale-unit * 10);
+  letter-spacing: -0.022em;
+}

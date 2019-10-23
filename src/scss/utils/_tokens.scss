@@ -65,3 +65,60 @@
   --color-primary-800: hsl(240, 100%, 20%);
   --color-primary-900: hsl(240, 100%, 10%);
 }
+
+/* Map Design Tokens to SCSS Variables for easier SCSS design
+   ========================================================================== */
+
+$family-primary:  var(--family-primary);
+$weight-light:    var(--weight-light);
+$weight-normal:   var(--weight-normal);
+$weight-bold:     var(--weight-bold);
+
+$type-scale-01: var(--type-scale-01);
+$type-scale-02: var(--type-scale-02);
+$type-scale-03: var(--type-scale-03);
+$type-scale-04: var(--type-scale-04);
+$type-scale-05: var(--type-scale-05);
+$type-scale-06: var(--type-scale-06);
+$type-scale-07: var(--type-scale-07);
+$type-scale-08: var(--type-scale-08);
+$type-scale-09: var(--type-scale-09);
+$type-scale-10: var(--type-scale-10);
+$type-scale-11: var(--type-scale-11);
+
+$baseline-scale-unit: var(--baseline-scale-unit);
+
+$space-unit: var(--space-unit);
+$space-xxs: var(--space-xxs);
+$space-xs: var(--space-xs);
+$space-s: var(--space-s);
+$space-m: var(--space-m);
+$space-l: var(--space-l);
+$space-xl: var(--space-xl);
+$space-xxl: var(--space-xxl);
+
+$desktop: var(--desktop);
+
+$color-white: var(--color-white);
+$color-grey-050: var(--color-grey-050);
+$color-grey-100: var(--color-grey-100);
+$color-grey-200: var(--color-grey-200);
+$color-grey-300: var(--color-grey-300);
+$color-grey-400: var(--color-grey-400);
+$color-grey-500: var(--color-grey-500);
+$color-grey-600: var(--color-grey-600);
+$color-grey-700: var(--color-grey-700);
+$color-grey-800: var(--color-grey-800);
+$color-grey-900: var(--color-grey-900);
+$color-black: var(--color-black);
+
+$color-primary-050: var(--color-primary-050);
+$color-primary-100: var(--color-primary-100);
+$color-primary-200: var(--color-primary-200);
+$color-primary-300: var(--color-primary-300);
+$color-primary-400: var(--color-primary-400);
+$color-primary-500: var(--color-primary-500);
+$color-primary-600: var(--color-primary-600);
+$color-primary-700: var(--color-primary-700);
+$color-primary-800: var(--color-primary-800);
+$color-primary-900: var(--color-primary-900);
