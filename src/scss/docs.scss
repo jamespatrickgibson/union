@@ -1,0 +1,47 @@
+@import 'union';
+
+/* Main Header */
+.main-header {
+  background: var(--color-black);
+  color: var(--color-white);
+  padding: var(--space-xl);
+}
+.main-header__title {
+  text-transform: lowercase;
+  font-weight: var(--weight-bold);
+}
+
+/* Main Nav */
+.main-nav {
+  height: calc(var(--space-unit) * 3);
+  padding: var(--space-m);
+  background: var(--color-grey-900);
+  color: var(--color-white);
+}
+
+/* Intro */
+.brand {
+  letter-spacing: -0.05em;
+  display: block;
+  margin-bottom: var(--space-xl);
+}
+
+/* Table of Contents */
+.toc {
+  padding: 0 var(--space-xl);
+}
+
+/* Sections */
+.docs-section {
+  padding: var(--space-xl);
+}
+.docs-section > * + *  {
+  margin-top: var(--space-xl);
+}
+.docs-section__header {
+}
+
+/* Articles */
+.docs-article > * + * {
+  margin-top: var(--space-m);
+}
