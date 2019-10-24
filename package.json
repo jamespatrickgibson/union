@@ -11,5 +11,6 @@
     "url": "git+https://github.com/jamespatrickgibson/union.git"
   },
   "author": "James Patrick Gibson",
-  "homepage": "https://github.com/jamespatrickgibson/union#readme"
+  "homepage": "https://github.com/jamespatrickgibson/union#readme",
+  "license": "MIT"
 }

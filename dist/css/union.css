@@ -563,44 +563,44 @@ body {
 }
 
 /* Headings */
-.un-heading-07 {
+.un-title-07 {
   font-size: var(--type-scale-11);
   font-weight: var(--weight-bold);
   line-height: calc(var(--baseline-scale-unit) * 10);
   letter-spacing: -0.022em;
 }
 
-.un-heading-06 {
+.un-title-06 {
   font-size: var(--type-scale-10);
   font-weight: var(--weight-bold);
   letter-spacing: -0.022em;
 }
 
-.un-heading-05 {
+.un-title-05 {
   font-size: var(--type-scale-09);
   font-weight: var(--weight-bold);
   letter-spacing: -0.022em;
 }
 
-.un-heading-04 {
+.un-title-04 {
   font-size: var(--type-scale-08);
   font-weight: var(--weight-bold);
   letter-spacing: -0.022em;
 }
 
-.un-heading-03 {
+.un-title-03 {
   font-size: var(--type-scale-07);
   font-weight: var(--weight-bold);
   letter-spacing: -0.021em;
 }
 
-.un-heading-02 {
+.un-title-02 {
   font-size: var(--type-scale-06);
   font-weight: var(--weight-bold);
   letter-spacing: -0.019em;
 }
 
-.un-heading-01 {
+.un-title-01 {
   font-size: var(--type-scale-05);
   font-weight: var(--weight-bold);
   letter-spacing: -0.018em;

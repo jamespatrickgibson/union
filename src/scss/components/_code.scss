@@ -1,0 +1,9 @@
+.un-code {
+  @include text-preset-01;
+  background: $color-grey-100;
+  color: $color-black;
+  height: baseline-scale(2);
+  line-height: baseline-scale(2);
+  display: inline-block;
+  padding: 0 $space-xs;
+}
