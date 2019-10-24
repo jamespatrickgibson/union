@@ -1,41 +1,52 @@
 /* Text Preset Mixins */
 @mixin text-preset-01 {
   font-size: $type-scale-01;
+  max-width: 55ch;
 }
 @mixin text-preset-02 {
   font-size: $type-scale-02;
+  max-width: 55ch;
 }
 @mixin text-preset-03 {
   font-size: $type-scale-03;
+  max-width: 55ch;
 }
 @mixin text-preset-04 {
   font-size: $type-scale-04;
+  max-width: 55ch;
 }
 @mixin text-preset-05 {
   font-size: $type-scale-05;
+  max-width: 55ch;
   letter-spacing: -0.018em;
 }
 @mixin text-preset-06 {
   font-size: $type-scale-06;
+  max-width: 55ch;
   letter-spacing: -0.019em;
 }
 @mixin text-preset-07 {
   font-size: $type-scale-07;
+  max-width: 55ch;
   letter-spacing: -0.021em;
 }
 @mixin text-preset-08 {
   font-size: $type-scale-08;
+  max-width: 55ch;
   letter-spacing: -0.022em;
 }
 @mixin text-preset-09 {
   font-size: $type-scale-09;
+  max-width: 55ch;
   letter-spacing: -0.022em;
 }
 @mixin text-preset-10 {
   font-size: $type-scale-10;
+  max-width: 55ch;
   letter-spacing: -0.022em;
 }
 @mixin text-preset-11 {
   font-size: $type-scale-11;
+  max-width: 55ch;
   letter-spacing: -0.022em;
 }

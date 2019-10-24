@@ -567,8 +567,9 @@ body {
    ========================================================================== */
 .un-code {
   font-size: var(--type-scale-01);
-  background: var(--color-grey-100);
-  color: var(--color-black);
+  max-width: 55ch;
+  background: var(--color-primary-050);
+  color: var(--color-primary-900);
   height: calc(var(--baseline-scale-unit) * 2);
   line-height: calc(var(--baseline-scale-unit) * 2);
   display: inline-block;
@@ -578,45 +579,54 @@ body {
 /* Titles */
 .un-title-01 {
   font-size: var(--type-scale-03);
+  max-width: 55ch;
   font-weight: var(--weight-bold);
 }
 .un-title-02 {
   font-size: var(--type-scale-04);
+  max-width: 55ch;
   font-weight: var(--weight-bold);
 }
 .un-title-03 {
   font-size: var(--type-scale-05);
+  max-width: 55ch;
   letter-spacing: -0.018em;
   font-weight: var(--weight-bold);
 }
 .un-title-04 {
   font-size: var(--type-scale-06);
+  max-width: 55ch;
   letter-spacing: -0.019em;
   font-weight: var(--weight-bold);
 }
 .un-title-05 {
   font-size: var(--type-scale-07);
+  max-width: 55ch;
   letter-spacing: -0.021em;
   font-weight: var(--weight-bold);
 }
 .un-title-06 {
   font-size: var(--type-scale-08);
+  max-width: 55ch;
   letter-spacing: -0.022em;
   font-weight: var(--weight-bold);
 }
 
 .un-large-title-01 {
   font-size: var(--type-scale-09);
+  max-width: 55ch;
   letter-spacing: -0.022em;
   font-weight: var(--weight-bold);
 }
 .un-large-title-02 {
   font-size: var(--type-scale-10);
+  max-width: 55ch;
   letter-spacing: -0.022em;
   font-weight: var(--weight-bold);
 }
 .un-large-title-03 {
   font-size: var(--type-scale-11);
+  max-width: 55ch;
   letter-spacing: -0.022em;
   font-weight: var(--weight-bold);
 }
@@ -690,6 +700,7 @@ a:hover {
 
 .current-version {
   font-size: var(--type-scale-02);
+  max-width: 55ch;
   margin-top: var(--space-l);
   font-weight: var(--weight-bold);
 }
@@ -703,6 +714,7 @@ a:hover {
 }
 .toc__link {
   font-size: var(--type-scale-02);
+  max-width: 55ch;
 }
 .toc ul ul {
   padding-left: var(--space-s);
@@ -725,32 +737,39 @@ a:hover {
 /* Mixin Utilities  */
 .text-preset-01 {
   font-size: var(--type-scale-01);
+  max-width: 55ch;
 }
 
 .text-preset-02 {
   font-size: var(--type-scale-02);
+  max-width: 55ch;
 }
 
 .text-preset-03 {
   font-size: var(--type-scale-03);
+  max-width: 55ch;
 }
 
 .text-preset-04 {
   font-size: var(--type-scale-04);
+  max-width: 55ch;
 }
 
 .text-preset-05 {
   font-size: var(--type-scale-05);
+  max-width: 55ch;
   letter-spacing: -0.018em;
 }
 
 .text-preset-06 {
   font-size: var(--type-scale-06);
+  max-width: 55ch;
   letter-spacing: -0.019em;
 }
 
 .text-preset-07 {
   font-size: var(--type-scale-07);
+  max-width: 55ch;
   letter-spacing: -0.021em;
 }
 
