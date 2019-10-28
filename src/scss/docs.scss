@@ -75,6 +75,9 @@ a {
   margin-top: $space-xl;
 }
 .docs-section__header {
+  p {
+    @include text-preset-03;
+  }
 }
 
 /* Articles */

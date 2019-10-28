@@ -27,16 +27,4 @@
 @import 'components/title';
 @import 'components/text-container';
 @import 'components/subheading';
-
-
-/* Body */
-.un-body-01 {
-  max-width: 55ch;
-  font-size: var(--type-scale-02);
-  line-height: calc(var(--baseline-scale-unit) * 3);
-}
-.un-body-02 {
-  max-width: 55ch;
-  font-size: var(--type-scale-03);
-  line-height: calc(var(--baseline-scale-unit) * 3);
-}
+@import 'components/body';
