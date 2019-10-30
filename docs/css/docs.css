@@ -460,15 +460,38 @@ template {
   display: none;
 }
 
+/* Inter
+   Inter is a typeface carefully crafted & designed for computer screens.
+   https://rsms.me/inter/
+   ========================================================================== */
+/* Inter
+   Variable Font
+*/
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("https://rsms.me/inter/font-files/Inter-roman.var.woff2?v=3.11") format("woff2");
+}
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: "Italic";
+  src: url("https://rsms.me/inter/font-files/Inter-italic.var.woff2?v=3.11") format("woff2");
+}
 /* Design Tokens as CSS Variables (Custom Properties)
    ========================================================================== */
 :root {
   /* Type */
-  --family-primary: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --family-primary: "Inter var", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   /* Font Weights */
   --weight-light: 300;
   --weight-normal: 400;
-  --weight-bold: 600;
+  --weight-bold: 700;
   /* 
     Typographic Scale
     Classical Scale based on Bringhurst's "The Elements of Typographic Style"
