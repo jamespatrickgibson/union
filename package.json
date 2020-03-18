@@ -12,5 +12,8 @@
   },
   "author": "James Patrick Gibson",
   "homepage": "https://github.com/jamespatrickgibson/union#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
