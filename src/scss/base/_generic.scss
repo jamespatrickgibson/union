@@ -1,5 +1,13 @@
 @use "../utils/all" as *;
 
+:root {
+  font-family: $family-primary;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
   height: 100%;
@@ -8,5 +16,20 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: $family-primary;
+}
+
+// Typographic Measure
+//  ========================================================================== */
+* {
+  max-width: $measure;
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+  max-width: none;
 }

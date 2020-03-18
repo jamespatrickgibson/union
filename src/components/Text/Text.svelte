@@ -2,7 +2,7 @@
   @use "./src/scss/utils/all" as *;
 
   .un-text {
-    font-size: $type-scale-02;
+    @include text-preset-02;
     line-height: 1.5;
   }
 </style>

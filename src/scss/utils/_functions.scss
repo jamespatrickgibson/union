@@ -1,7 +1,15 @@
-/// 4pt Baseline Grid value
+/// Baseline Grid value
 /// Get the value of a specific step in a 4pt grid scale
 /// @param {Number} $step - Degree of 4pt increments
 /// @return {Number} Value in pixels, converted from rem
 @function baseline-scale($step) {
   @return (calc(#{$baseline-scale-unit} * #{$step}));
+}
+
+/// 4pt Grid
+/// Get the value of a specific step in a 4pt grid scale
+/// @param {Number} $step - Degree of 4pt increments
+/// @return {Number} Value in pixels, converted from rem
+@function grid-4pt($step) {
+  @return (calc(0.5rem * #{$step}));
 }
