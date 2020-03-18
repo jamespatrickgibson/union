@@ -308,6 +308,7 @@ var app = (function () {
     	let h1;
     	let t0;
     	let t1;
+    	let br;
     	let t2;
     	let t3;
     	let p;
@@ -319,24 +320,27 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			h1 = element("h1");
-    			t0 = text("Hello ");
-    			t1 = text(/*name*/ ctx[0]);
-    			t2 = text("!");
+    			t0 = text(/*name*/ ctx[0]);
+    			t1 = text(".\n    ");
+    			br = element("br");
+    			t2 = text("\n    A design style boilerplate for creating scalable design architecture.");
     			t3 = space();
     			p = element("p");
     			t4 = text("Visit the\n    ");
     			a = element("a");
     			a.textContent = "Svelte tutorial";
     			t6 = text("\n    to learn how to build Svelte apps.");
-    			attr_dev(h1, "class", "svelte-1hksrw7");
-    			add_location(h1, file, 110, 2, 2916);
+    			attr_dev(br, "class", "svelte-1kydx75");
+    			add_location(br, file, 785, 4, 16786);
+    			attr_dev(h1, "class", "svelte-1kydx75");
+    			add_location(h1, file, 783, 2, 16765);
     			attr_dev(a, "href", "https://svelte.dev/tutorial");
-    			attr_dev(a, "class", "svelte-1hksrw7");
-    			add_location(a, file, 113, 4, 2963);
-    			attr_dev(p, "class", "svelte-1hksrw7");
-    			add_location(p, file, 111, 2, 2941);
-    			attr_dev(main, "class", "svelte-1hksrw7");
-    			add_location(main, file, 109, 0, 2907);
+    			attr_dev(a, "class", "svelte-1kydx75");
+    			add_location(a, file, 790, 4, 16899);
+    			attr_dev(p, "class", "svelte-1kydx75");
+    			add_location(p, file, 788, 2, 16877);
+    			attr_dev(main, "class", "svelte-1kydx75");
+    			add_location(main, file, 782, 0, 16756);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -346,6 +350,7 @@ var app = (function () {
     			append_dev(main, h1);
     			append_dev(h1, t0);
     			append_dev(h1, t1);
+    			append_dev(h1, br);
     			append_dev(h1, t2);
     			append_dev(main, t3);
     			append_dev(main, p);
@@ -354,7 +359,7 @@ var app = (function () {
     			append_dev(p, t6);
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*name*/ 1) set_data_dev(t1, /*name*/ ctx[0]);
+    			if (dirty & /*name*/ 1) set_data_dev(t0, /*name*/ ctx[0]);
     		},
     		i: noop,
     		o: noop,
@@ -432,10 +437,10 @@ var app = (function () {
     }
 
     const app = new App({
-    	target: document.body,
-    	props: {
-    		name: 'world'
-    	}
+      target: document.body,
+      props: {
+        name: "union"
+      }
     });
 
     return app;

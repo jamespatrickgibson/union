@@ -4,30 +4,15 @@
 
 <style lang="scss">
   @use "scss/utils/tokens" as *;
-
-  main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-
-  h1 {
-    color: $color-primary-500;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
+  @import "scss/union";
 </style>
 
 <main>
-  <h1>Hello {name}!</h1>
+  <h1>
+    {name}.
+    <br />
+    A design style boilerplate for creating scalable design architecture.
+  </h1>
   <p>
     Visit the
     <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
