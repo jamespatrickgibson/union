@@ -330,17 +330,17 @@ var app = (function () {
     			a = element("a");
     			a.textContent = "Svelte tutorial";
     			t6 = text("\n    to learn how to build Svelte apps.");
-    			attr_dev(br, "class", "svelte-1kydx75");
-    			add_location(br, file, 785, 4, 16786);
-    			attr_dev(h1, "class", "svelte-1kydx75");
-    			add_location(h1, file, 783, 2, 16765);
+    			attr_dev(br, "class", "svelte-xvjpza");
+    			add_location(br, file, 688, 4, 14737);
+    			attr_dev(h1, "class", "svelte-xvjpza");
+    			add_location(h1, file, 686, 2, 14716);
     			attr_dev(a, "href", "https://svelte.dev/tutorial");
-    			attr_dev(a, "class", "svelte-1kydx75");
-    			add_location(a, file, 790, 4, 16899);
-    			attr_dev(p, "class", "svelte-1kydx75");
-    			add_location(p, file, 788, 2, 16877);
-    			attr_dev(main, "class", "svelte-1kydx75");
-    			add_location(main, file, 782, 0, 16756);
+    			attr_dev(a, "class", "svelte-xvjpza");
+    			add_location(a, file, 693, 4, 14850);
+    			attr_dev(p, "class", "svelte-xvjpza");
+    			add_location(p, file, 691, 2, 14828);
+    			attr_dev(main, "class", "svelte-xvjpza");
+    			add_location(main, file, 685, 0, 14707);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
