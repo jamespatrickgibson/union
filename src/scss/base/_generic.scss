@@ -1,11 +1,12 @@
+@use "../utils/all" as *;
+
 html {
   font-size: 16px;
   height: 100%;
 }
 
 body {
-  font-family: var(--family-primary);
-  font-size: 1rem;
-  background-color: var(--color-grey-050);
-  color: var(--color-grey-900);
+  margin: 0;
+  padding: 0;
+  font-family: $family-primary;
 }

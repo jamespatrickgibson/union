@@ -1,21 +1,13 @@
 <script>
-  export let name;
+  import Text from "./components/Text/Text.svelte";
 </script>
 
-<style lang="scss">
-  @use "scss/utils/tokens" as *;
-  @import "scss/union";
+<style lang="scss" global>
+  @import "./src/scss/union.scss";
 </style>
 
 <main>
-  <h1>
-    {name}.
-    <br />
-    A design style boilerplate for creating scalable design architecture.
-  </h1>
-  <p>
-    Visit the
-    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-    to learn how to build Svelte apps.
-  </p>
+  <Text>
+    Union. A design style boilerplate for creating scalable design architecture.
+  </Text>
 </main>
