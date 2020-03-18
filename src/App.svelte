@@ -2,7 +2,9 @@
   export let name;
 </script>
 
-<style>
+<style lang="scss">
+  @use "scss/utils/tokens" as *;
+
   main {
     text-align: center;
     padding: 1em;
@@ -11,7 +13,7 @@
   }
 
   h1 {
-    color: #ff3e00;
+    color: $color-primary-500;
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;
