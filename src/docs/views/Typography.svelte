@@ -2,6 +2,7 @@
   // Union Components
   import Divider from "../../components/Divider/Divider.svelte";
   import Heading from "../../components/Heading/Heading.svelte";
+  import Link from "../../components/Link/Link.svelte";
   import Stack from "../../components/Stack/Stack.svelte";
   import Text from "../../components/Text/Text.svelte";
 
@@ -168,6 +169,20 @@
         </div>
       </Stack>
     </article>
+
+    <Divider />
+
+    <article id="links">
+      <Stack>
+        <Heading>Link</Heading>
+        <Text>
+          Here's some text with a
+          <Link to="https://www.designwithunion.com">text link.</Link>
+        </Text>
+      </Stack>
+    </article>
+
+    <Divider />
 
     <article id="scale">
       <Stack>
