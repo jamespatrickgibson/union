@@ -6,8 +6,17 @@
   @use "./src/scss/utils/all" as *;
 
   .un-text {
-    @include text-preset-02;
     font-weight: $weight-normal;
+
+    &.is-size-1 {
+      @include text-preset-01;
+    }
+    &.is-size-2 {
+      @include text-preset-02;
+    }
+    &.is-size-3 {
+      @include text-preset-03;
+    }
   }
 </style>
 
@@ -16,5 +25,6 @@
   class:is-size-1={size === '1'}
   class:is-size-2={size === '2'}
   class:is-size-3={size === '3'}>
+  Size {size}
   <slot />
 </p>

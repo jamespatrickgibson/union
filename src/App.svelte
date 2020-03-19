@@ -5,6 +5,9 @@
 
 <style lang="scss" global>
   @import "./src/scss/union.scss";
+  main {
+    padding: 2rem;
+  }
 </style>
 
 <main>
@@ -16,7 +19,7 @@
 
     <Text>Sample Content: Zen</Text>
 
-    <Text>
+    <Text size="3">
       Some call it &quot;seeing,&quot; some call it &quot;knowing,&quot; and
       some describe it in religious terms. Whatever the name, it is our reach
       for a new level of consciousness. Of the many forms this search has taken,
@@ -28,7 +31,7 @@
       the greatest Zen masters.
     </Text>
 
-    <Text>
+    <Text size="2">
       Zen teachings often appear deceptively simple. This misconception is
       compounded by the Zen claim that explanations are meaningless. They are,
       of course, but merely because genuine Zen insights can arise only from
@@ -36,6 +39,17 @@
       even analyzed, it cannot be transmitted or shared. At most, the
       &quot;teachings&quot; of Zen can only clear the way to our deeper
       consciousness. The rest is up to us.
+    </Text>
+
+    <Text size="1">
+      Zen is based on the recognition of two incompatible types of thought:
+      rational and intuitive. Rationality employs language, logic, reason. Its
+      precepts can be taught. Intuitive knowledge, however, is different. It
+      lurks embedded in our consciousness, beyond words. Unlike rational
+      thought, intuition cannot be &quot;taught&quot; or even turned on. In
+      fact, it is impossible to find or manipulate this intuitive consciousness
+      using our rational mind--any more than we can grasp our own hand or see
+      our own eye.
     </Text>
   </Stack>
 </main>

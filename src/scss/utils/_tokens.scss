@@ -29,9 +29,6 @@
   // Typographic Measure
   --measure: 60ch;
 
-  /* Baseline Scale */
-  --baseline-scale-unit: 0.5rem; /* 4pt (px) */
-
   /* Space */
   --space-unit: 1rem; /* 16pt (px) */
   --space-xxs: calc(var(--space-unit) / 8); /* 2pt (px) */
@@ -94,8 +91,6 @@ $type-scale-10: var(--type-scale-10);
 $type-scale-11: var(--type-scale-11);
 
 $measure: var(--measure);
-
-$baseline-scale-unit: var(--baseline-scale-unit);
 
 $space-unit: var(--space-unit);
 $space-xxs: var(--space-xxs);
