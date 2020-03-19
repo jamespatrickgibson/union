@@ -62,8 +62,9 @@
 </style>
 
 <div class="page-typography">
-  <Stack>
+  <Stack space="xl">
     <Heading size="1">Typography</Heading>
+
     <nav>
       <ul>
         <li>
@@ -77,33 +78,42 @@
         </li>
       </ul>
     </nav>
+
     <article id="headings">
       <Stack>
         <Heading>Headings</Heading>
-        <Heading size="1">
-          Typography is the craft of endowing human language with a durable
-          visual form. (Size 1)
-        </Heading>
-        <Heading size="2">
-          Typography is the craft of endowing human language with a durable
-          visual form. (Size 2)
-        </Heading>
-        <Heading size="3">
-          Typography is the craft of endowing human language with a durable
-          visual form. (Size 3)
-        </Heading>
-        <Heading size="4">
-          Typography is the craft of endowing human language with a durable
-          visual form. (Size 4)
-        </Heading>
-        <Heading size="5">
-          Typography is the craft of endowing human language with a durable
-          visual form. (Size 5)
-        </Heading>
-        <Heading size="6">
-          Typography is the craft of endowing human language with a durable
-          visual form. (Size 6)
-        </Heading>
+        <div class="type-examples">
+          <Text>Size 1</Text>
+          <Heading size="1">
+            Typography is the craft of endowing human language with a durable
+            visual form.
+          </Heading>
+          <Text>Size 2</Text>
+          <Heading size="2">
+            Typography is the craft of endowing human language with a durable
+            visual form.
+          </Heading>
+          <Text>Size 3</Text>
+          <Heading size="3">
+            Typography is the craft of endowing human language with a durable
+            visual form.
+          </Heading>
+          <Text>Size 4</Text>
+          <Heading size="4">
+            Typography is the craft of endowing human language with a durable
+            visual form.
+          </Heading>
+          <Text>Size 5</Text>
+          <Heading size="5">
+            Typography is the craft of endowing human language with a durable
+            visual form.
+          </Heading>
+          <Text>Size 6</Text>
+          <Heading size="6">
+            Typography is the craft of endowing human language with a durable
+            visual form.
+          </Heading>
+        </div>
       </Stack>
     </article>
 

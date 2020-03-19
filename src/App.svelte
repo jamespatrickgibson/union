@@ -15,9 +15,8 @@
 </style>
 
 <main>
-  <Stack>
+  <Stack space="xl">
     <DocsHeader />
-
     <Typography />
     <Zen />
   </Stack>
