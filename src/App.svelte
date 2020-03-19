@@ -1,10 +1,8 @@
 <script>
   import Stack from "./components/Stack/Stack.svelte";
 
-  // Docs Components
+  // Docs Components & Pages
   import DocsHeader from "./docs/components/DocsHeader/DocsHeader.svelte";
-
-  // Pages
   import Typography from "./docs/views/Typography.svelte";
   import Zen from "./docs/views/Zen.svelte";
 </script>
@@ -19,7 +17,8 @@
 <main>
   <Stack>
     <DocsHeader />
-    <Zen />
+
     <Typography />
+    <Zen />
   </Stack>
 </main>
