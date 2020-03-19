@@ -25,6 +25,5 @@
   class:is-size-1={size === '1'}
   class:is-size-2={size === '2'}
   class:is-size-3={size === '3'}>
-  Size {size}
   <slot />
 </p>
