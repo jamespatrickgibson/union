@@ -7,6 +7,7 @@
   /* Font Weights */
   --weight-light: 300;
   --weight-normal: 400;
+  --weight-medium: 500;
   --weight-bold: 700;
 
   /* 
@@ -77,6 +78,7 @@
 $family-primary: var(--family-primary);
 $weight-light: var(--weight-light);
 $weight-normal: var(--weight-normal);
+$weight-medium: var(--weight-medium);
 $weight-bold: var(--weight-bold);
 
 $type-scale-01: var(--type-scale-01);
