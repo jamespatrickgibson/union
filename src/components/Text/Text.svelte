@@ -9,13 +9,13 @@
     font-weight: $weight-normal;
 
     &.is-size-1 {
-      @include text-preset-01;
+      @include text-preset-03;
     }
     &.is-size-2 {
       @include text-preset-02;
     }
     &.is-size-3 {
-      @include text-preset-03;
+      @include text-preset-01;
     }
   }
 </style>
