@@ -19,14 +19,13 @@
     encounter Zen in its purest form, by returning to the greatest Zen masters.
   </Text>
 
-  <Heading size="5">Example Content for Previewing Typesetting</Heading>
+  <Heading size="5">Zen teachings often appear deceptively simple.</Heading>
   <Text>
-    Zen teachings often appear deceptively simple. This misconception is
-    compounded by the Zen claim that explanations are meaningless. They are, of
-    course, but merely because genuine Zen insights can arise only from
-    individual experience. And although our experience can be described and even
-    analyzed, it cannot be transmitted or shared. At most, the
-    &quot;teachings&quot; of Zen can only clear the way to our deeper
+    This misconception is compounded by the Zen claim that explanations are
+    meaningless. They are, of course, but merely because genuine Zen insights
+    can arise only from individual experience. And although our experience can
+    be described and even analyzed, it cannot be transmitted or shared. At most,
+    the &quot;teachings&quot; of Zen can only clear the way to our deeper
     consciousness. The rest is up to us.
   </Text>
   <Heading size="6">

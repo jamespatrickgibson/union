@@ -1,5 +1,6 @@
 <script>
   import Box from "./components/Box/Box.svelte";
+  import Divider from "./components/Divider/Divider.svelte";
   import Stack from "./components/Stack/Stack.svelte";
 
   // Docs Components & Pages
@@ -20,6 +21,7 @@
   <Box padding="l">
     <Stack space="xl">
       <Typography />
+      <Divider />
       <Zen />
     </Stack>
   </Box>
