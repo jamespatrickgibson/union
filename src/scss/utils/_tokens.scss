@@ -30,14 +30,14 @@
   --measure: 60ch;
 
   /* Space */
-  --space-unit: 1rem; /* 16pt (px) */
-  --space-xxs: calc(var(--space-unit) / 8); /* 2pt (px) */
-  --space-xs: calc(var(--space-unit) / 4); /* 4pt (px) */
-  --space-s: calc(var(--space-unit) / 2); /* 8pt (px) */
-  --space-m: var(--space-unit); /* 16pt (px) */
-  --space-l: calc(var(--space-unit) * 2); /* 32pt (px) */
-  --space-xl: calc(var(--space-unit) * 4); /* 64pt (px) */
-  --space-xxl: calc(var(--space-unit) * 8); /* 128pt (px) */
+  --space-unit: 1rem; /* 16dp (px) */
+  --space-xxs: calc(var(--space-unit) / 8); /* 2dp (px) */
+  --space-xs: calc(var(--space-unit) / 4); /* 4dp (px) */
+  --space-s: calc(var(--space-unit) / 2); /* 8dp (px) */
+  --space-m: var(--space-unit); /* 16dp (px) */
+  --space-l: calc(var(--space-unit) * 2); /* 32dp (px) */
+  --space-xl: calc(var(--space-unit) * 4); /* 64dp (px) */
+  --space-xxl: calc(var(--space-unit) * 8); /* 128dp (px) */
 
   /* Responsive */
   --desktop: 60rem; /* 960px */

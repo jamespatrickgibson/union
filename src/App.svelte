@@ -1,10 +1,12 @@
 <script>
   import Stack from "./components/Stack/Stack.svelte";
-  import Text from "./components/Text/Text.svelte";
+
+  // Docs Components
+  import DocsHeader from "./docs/components/DocsHeader/DocsHeader.svelte";
 
   // Pages
-  import Typography from "./views/Typography.svelte";
-  import Zen from "./views/Zen.svelte";
+  import Typography from "./docs/views/Typography.svelte";
+  import Zen from "./docs/views/Zen.svelte";
 </script>
 
 <style lang="scss" global>
@@ -16,10 +18,7 @@
 
 <main>
   <Stack>
-    <Text>
-      Union. A design style boilerplate for creating scalable design
-      architecture.
-    </Text>
+    <DocsHeader />
     <Zen />
     <Typography />
   </Stack>

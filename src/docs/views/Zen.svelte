@@ -1,7 +1,7 @@
 <script>
-  import Heading from "../components/Heading/Heading.svelte";
-  import Stack from "../components/Stack/Stack.svelte";
-  import Text from "../components/Text/Text.svelte";
+  import Heading from "../../components/Heading/Heading.svelte";
+  import Stack from "../../components/Stack/Stack.svelte";
+  import Text from "../../components/Text/Text.svelte";
 </script>
 
 <Stack>
