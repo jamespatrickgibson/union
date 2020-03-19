@@ -6,16 +6,12 @@
   import Stack from "../../../components/Stack/Stack.svelte";
 </script>
 
-<style lang="scss">
-  @use "./src/scss/utils/all" as *;
-</style>
-
 <header>
   <Box background="dark" padding="l" squish>
     <Stack>
       <div>
         <Heading size="1">union.</Heading>
-        <Text size="1">
+        <Text>
           A design style boilerplate for creating scalable design architecture.
         </Text>
         <Text size="3">Work in Progress • Version 0.0.1</Text>

@@ -1,5 +1,6 @@
 <script>
   // Union Components
+  import Divider from "../../components/Divider/Divider.svelte";
   import Heading from "../../components/Heading/Heading.svelte";
   import Stack from "../../components/Stack/Stack.svelte";
   import Text from "../../components/Text/Text.svelte";
@@ -67,22 +68,22 @@
 
 <div class="page-typography">
   <Stack space="xl">
-    <Heading size="1">Typography</Heading>
-
-    <nav>
-      <ul>
-        <li>
-          <a href="#headings">Headings</a>
-        </li>
-        <li>
-          <a href="#text">Text</a>
-        </li>
-        <li>
-          <a href="#text">Typographic Scale</a>
-        </li>
-      </ul>
-    </nav>
-
+    <Stack space="s">
+      <Heading size="1">Typography</Heading>
+      <nav>
+        <ul>
+          <li>
+            <a href="#headings">Headings</a>
+          </li>
+          <li>
+            <a href="#text">Text</a>
+          </li>
+          <li>
+            <a href="#text">Typographic Scale</a>
+          </li>
+        </ul>
+      </nav>
+    </Stack>
     <article id="headings">
       <Stack>
         <Heading>Headings</Heading>
@@ -120,6 +121,8 @@
         </div>
       </Stack>
     </article>
+
+    <Divider />
 
     <article id="text">
       <Stack>
