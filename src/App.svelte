@@ -1,4 +1,5 @@
 <script>
+  import Box from "./components/Box/Box.svelte";
   import Stack from "./components/Stack/Stack.svelte";
 
   // Docs Components & Pages
@@ -10,14 +11,16 @@
 <style lang="scss" global>
   @import "./src/scss/union.scss";
   main {
-    padding: 2rem;
   }
 </style>
 
+<DocsHeader />
+
 <main>
-  <Stack space="xl">
-    <DocsHeader />
-    <Typography />
-    <Zen />
-  </Stack>
+  <Box padding="l">
+    <Stack space="xl">
+      <Typography />
+      <Zen />
+    </Stack>
+  </Box>
 </main>

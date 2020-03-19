@@ -1,7 +1,11 @@
 <script>
+  // Union Components
   import Heading from "../../components/Heading/Heading.svelte";
   import Stack from "../../components/Stack/Stack.svelte";
   import Text from "../../components/Text/Text.svelte";
+
+  // Docs Components
+  import InlineElements from "../components/InlineElements.svelte";
 </script>
 
 <style lang="scss">
@@ -156,6 +160,8 @@
             fifteenth century; it requires simply good sense in the originators
             & good will in the rest of us.
           </Text>
+          <Text>Inline Element Test</Text>
+          <InlineElements />
         </div>
       </Stack>
     </article>
