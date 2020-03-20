@@ -16,21 +16,7 @@
         </Text>
         <Text size="3">Work in Progress • Version 0.0.1</Text>
       </div>
-      <nav>
-        <Text size="3">
-          <Inline space="xs">
-            <a href="https://github.com/jamespatrickgibson/union">
-              View on Github
-            </a>
-            <a
-              href="https://raw.githubusercontent.com/jamespatrickgibson/union/master/dist/css/union.css">
-              Download union.css
-            </a>
-          </Inline>
-
-        </Text>
-        <Text size="3" />
-      </nav>
+      <nav />
     </Stack>
   </Box>
 </header>

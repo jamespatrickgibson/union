@@ -4,6 +4,7 @@
   import Stack from "./components/Stack/Stack.svelte";
 
   // Docs Components & Pages
+  import About from "./docs/views/About.svelte";
   import DocsHeader from "./docs/components/DocsHeader/DocsHeader.svelte";
   import Typography from "./docs/views/Typography.svelte";
   import Zen from "./docs/views/Zen.svelte";
@@ -20,6 +21,8 @@
 <main>
   <Box padding="l">
     <Stack space="xl">
+      <About />
+      <Divider />
       <Typography />
       <Divider />
       <Zen />
