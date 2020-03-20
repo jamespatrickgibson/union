@@ -1,46 +1,49 @@
 :root {
   /* Type */
-  --family-primary: 'Inter var', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --family-primary: 'Inter var', BlinkMacSystemFont, -apple-system, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 
   /* Font Weights */
   --weight-light: 300;
   --weight-normal: 400;
+  --weight-medium: 500;
   --weight-bold: 700;
 
   /* 
     Typographic Scale
     Classical Scale based on Bringhurst's "The Elements of Typographic Style"
    */
-  --type-scale-01: 0.75rem;     /* 12px */
-  --type-scale-02: 0.875rem;    /* 14px */
-  --type-scale-03: 1rem;        /* 16px */
-  --type-scale-04: 1.125rem;    /* 18px */
-  --type-scale-05: 1.3125rem;   /* 21px */
-  --type-scale-06: 1.5rem;      /* 24px */
-  --type-scale-07: 1.875rem;    /* 30px */
-  --type-scale-08: 2.25rem;     /* 36px */
-  --type-scale-09: 3rem;        /* 48px */
-  --type-scale-10: 3.75rem;     /* 60px */
-  --type-scale-11: 4.5rem;      /* 72px */
+  --type-scale-01: 0.75rem; /* 12px */
+  --type-scale-02: 0.875rem; /* 14px */
+  --type-scale-03: 1rem; /* 16px */
+  --type-scale-04: 1.125rem; /* 18px */
+  --type-scale-05: 1.3125rem; /* 21px */
+  --type-scale-06: 1.5rem; /* 24px */
+  --type-scale-07: 1.875rem; /* 30px */
+  --type-scale-08: 2.25rem; /* 36px */
+  --type-scale-09: 3rem; /* 48px */
+  --type-scale-10: 3.75rem; /* 60px */
+  --type-scale-11: 4.5rem; /* 72px */
 
-  /* Baseline Scale */
-  --baseline-scale-unit: 0.5rem;  /* 4pt (px) */
+  // Typographic Measure
+  --measure: 60ch;
 
   /* Space */
-  --space-unit: 1rem;                         /* 16pt (px) */
-  --space-xxs: calc(var(--space-unit) / 8);   /* 2pt (px) */
-  --space-xs: calc(var(--space-unit) / 4);    /* 4pt (px) */
-  --space-s: calc(var(--space-unit) / 2);     /* 8pt (px) */
-  --space-m: var(--space-unit);               /* 16pt (px) */
-  --space-l: calc(var(--space-unit) * 2);     /* 32pt (px) */
-  --space-xl: calc(var(--space-unit) * 4);    /* 64pt (px) */
-  --space-xxl: calc(var(--space-unit) * 8);   /* 128pt (px) */
+  --space-unit: 1rem; /* 16dp (px) */
+  --space-xxs: calc(var(--space-unit) / 8); /* 2dp (px) */
+  --space-xs: calc(var(--space-unit) / 4); /* 4dp (px) */
+  --space-s: calc(var(--space-unit) / 2); /* 8dp (px) */
+  --space-m: var(--space-unit); /* 16dp (px) */
+  --space-l: calc(var(--space-unit) * 2); /* 32dp (px) */
+  --space-xl: calc(var(--space-unit) * 4); /* 64dp (px) */
+  --space-xxl: calc(var(--space-unit) * 8); /* 128dp (px) */
 
   /* Responsive */
-  --desktop: 60rem;   /* 960px */
+  --desktop: 60rem; /* 960px */
 
   /* Color: Neutral */
-  --color-white:    hsl(0, 0%, 100%);
+  --color-white: hsl(0, 0%, 100%);
   --color-grey-050: hsl(0, 0%, 97%);
   --color-grey-100: hsl(0, 0%, 88%);
   --color-grey-200: hsl(0, 0%, 81%);
@@ -51,7 +54,7 @@
   --color-grey-700: hsl(0, 0%, 32%);
   --color-grey-800: hsl(0, 0%, 23%);
   --color-grey-900: hsl(0, 0%, 13%);
-  --color-black:    hsl(0, 0%, 0%);
+  --color-black: hsl(0, 0%, 0%);
 
   /* Color: Primary */
   --color-primary-050: hsl(240, 100%, 95%);
@@ -69,10 +72,11 @@
 /* Map Design Tokens to SCSS Variables for easier SCSS design
    ========================================================================== */
 
-$family-primary:  var(--family-primary);
-$weight-light:    var(--weight-light);
-$weight-normal:   var(--weight-normal);
-$weight-bold:     var(--weight-bold);
+$family-primary: var(--family-primary);
+$weight-light: var(--weight-light);
+$weight-normal: var(--weight-normal);
+$weight-medium: var(--weight-medium);
+$weight-bold: var(--weight-bold);
 
 $type-scale-01: var(--type-scale-01);
 $type-scale-02: var(--type-scale-02);
@@ -86,7 +90,7 @@ $type-scale-09: var(--type-scale-09);
 $type-scale-10: var(--type-scale-10);
 $type-scale-11: var(--type-scale-11);
 
-$baseline-scale-unit: var(--baseline-scale-unit);
+$measure: var(--measure);
 
 $space-unit: var(--space-unit);
 $space-xxs: var(--space-xxs);
@@ -122,3 +126,10 @@ $color-primary-600: var(--color-primary-600);
 $color-primary-700: var(--color-primary-700);
 $color-primary-800: var(--color-primary-800);
 $color-primary-900: var(--color-primary-900);
+
+$background-black: $color-black;
+$background-dark: $color-grey-900;
+$background-neutral: $color-grey-300;
+$background-neutral-light: $color-grey-050;
+
+$border-color: $color-grey-200;

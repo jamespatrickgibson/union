@@ -1,35 +1,16 @@
 /*! Union v0.0.1 | https://github.com/jamespatrickgibson/union */
 
-/* Destyle
-   An Opinionated Reset - https://nicolas-cusan.github.io/destyle.css/
-   ========================================================================== */
-@import 'base/destyle';
+// Destyle
+// An Opinionated Reset - https://nicolas-cusan.github.io/destyle.css/
+// ========================================================================== */
+@import "base/destyle";
 
-/* Inter
-   Inter is a typeface carefully crafted & designed for computer screens.
-   https://rsms.me/inter/
-   ========================================================================== */
-@import 'typography/fonts';
+// Inter
+// Inter is a typeface carefully crafted & designed for computer screens.
+// https://rsms.me/inter/
+// ========================================================================== */
+@import "typography/fonts";
 
-/* Design Tokens as CSS Variables (Custom Properties)
-   ========================================================================== */
-@import 'utils/tokens';
-
-
-/* Mixins & Functions
-   ========================================================================== */
-@import 'utils/mixins';
-@import 'utils/functions';
-
-
-/* Base Styling
-   ========================================================================== */
-@import 'base/generic';
-
-/* Components
-   ========================================================================== */
-@import 'components/code';
-@import 'components/title';
-@import 'components/text-container';
-@import 'components/subheading';
-@import 'components/body';
+// Base Styling
+//   ========================================================================== */
+@import "base/generic";
