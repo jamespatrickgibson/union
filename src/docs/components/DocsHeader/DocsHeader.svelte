@@ -12,7 +12,7 @@
       <div>
         <Heading size="1">union.</Heading>
         <Text>
-          A design style boilerplate for creating scalable design architecture.
+          A design system boilerplate for creating scalable design architecture.
         </Text>
         <Text size="3">Work in Progress • Version 0.0.1</Text>
       </div>

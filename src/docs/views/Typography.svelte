@@ -71,19 +71,6 @@
   <Stack space="xl">
     <Stack space="s">
       <Heading size="1">Typography</Heading>
-      <nav>
-        <ul>
-          <li>
-            <a href="#headings">Headings</a>
-          </li>
-          <li>
-            <a href="#text">Text</a>
-          </li>
-          <li>
-            <a href="#text">Typographic Scale</a>
-          </li>
-        </ul>
-      </nav>
     </Stack>
     <article id="headings">
       <Stack>
