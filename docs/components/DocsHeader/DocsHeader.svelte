@@ -1,9 +1,11 @@
 <script>
-  import Box from "../../../components/Box/Box.svelte";
-  import Heading from "../../../components/Heading/Heading.svelte";
-  import Inline from "../../../components/Inline/Inline.svelte";
-  import Text from "../../../components/Text/Text.svelte";
-  import Stack from "../../../components/Stack/Stack.svelte";
+  import {
+    Box,
+    Heading,
+    Inline,
+    Text,
+    Stack
+  } from "../../../src/components/components.module.js";
 </script>
 
 <header>

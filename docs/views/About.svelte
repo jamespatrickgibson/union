@@ -1,11 +1,13 @@
 <script>
-  // Union Components
-  import Divider from "../../components/Divider/Divider.svelte";
-  import Heading from "../../components/Heading/Heading.svelte";
-  import Inline from "../../components/Inline/Inline.svelte";
-  import Link from "../../components/Link/Link.svelte";
-  import Stack from "../../components/Stack/Stack.svelte";
-  import Text from "../../components/Text/Text.svelte";
+  import {
+    Box,
+    Component,
+    Divider,
+    Heading,
+    Link,
+    Text,
+    Stack
+  } from "../../src/components/components.module.js";
 </script>
 
 <section>

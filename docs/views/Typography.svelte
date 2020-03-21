@@ -1,10 +1,14 @@
 <script>
   // Union Components
-  import Divider from "../../components/Divider/Divider.svelte";
-  import Heading from "../../components/Heading/Heading.svelte";
-  import Link from "../../components/Link/Link.svelte";
-  import Stack from "../../components/Stack/Stack.svelte";
-  import Text from "../../components/Text/Text.svelte";
+  import {
+    Box,
+    Component,
+    Divider,
+    Heading,
+    Link,
+    Text,
+    Stack
+  } from "../src/components/components.module.js";
 
   // Docs Components
   import InlineElements from "../components/InlineElements.svelte";
@@ -19,7 +23,6 @@
     text-overflow: ellipsis;
   }
 
-  // Typographic Scale Layout
   .type-examples {
     display: grid;
     grid-template-columns: 1fr 4fr;

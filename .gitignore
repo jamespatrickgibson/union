@@ -5,7 +5,7 @@
 
 # production
 /dist
-/public/build
+**/public/bundle.*
 
 # misc
 .DS_Store
