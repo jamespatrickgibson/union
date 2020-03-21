@@ -1,2 +1,12 @@
+<script>
+  export let text = "Test Component";
+</script>
+
+<style>
+  div {
+    background: pink;
+  }
+</style>
+
 <!-- your code here -->
-<div>My Test Component</div>
+<div>{text}</div>
