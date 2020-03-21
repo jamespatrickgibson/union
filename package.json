@@ -2,34 +2,24 @@
   "name": "union",
   "version": "0.0.1",
   "description": "A standards manual and style kit for screens",
-  "main": "index.js",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
   "scripts": {
-    "serve": "(live-server ./docs) & sass --watch src/scss/docs.scss docs/css/docs.css",
     "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public"
+    "prepublishOnly": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamespatrickgibson/union.git"
-  },
-  "author": "James Patrick Gibson",
-  "homepage": "https://github.com/jamespatrickgibson/union#readme",
-  "license": "MIT",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^11.0.0",
-    "@rollup/plugin-node-resolve": "^7.0.0",
-    "autoprefixer": "^9.7.4",
+    "@rollup/plugin-node-resolve": "^6.0.0",
     "rollup": "^1.20.0",
-    "rollup-plugin-livereload": "^1.0.0",
-    "rollup-plugin-svelte": "^5.0.3",
-    "rollup-plugin-terser": "^5.1.2",
-    "sass": "^1.26.3",
-    "svelte": "^3.0.0",
-    "svelte-preprocess": "^3.5.0"
+    "rollup-plugin-svelte": "^5.0.0",
+    "svelte": "^3.0.0"
   },
-  "dependencies": {
-    "live-server": "^1.2.1",
-    "sirv-cli": "^0.4.4"
-  }
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ]
 }
