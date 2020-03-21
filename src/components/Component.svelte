@@ -3,7 +3,7 @@
   export let text = "Test Component";
 </script>
 
-<style>
+<style lang="scss">
   div {
     background: pink;
     padding: 2rem;

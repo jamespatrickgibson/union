@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../Component.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  /** @type {string} Name of the input */\n  export let text = \"Test Component\";\n</script>\n\n<style lang=\"scss\">div {\n  background: pink;\n  padding: 2rem;\n}\n/*# sourceMappingURL=src/components/Component.svelte.map */</style>\n\n<!-- your code here -->\n<div>{text}</div>\n"
+  ],
+  "names": [],
+  "mappings": "AAKmB,GAAG,cAAC,CAAC,AACtB,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,AACf,CAAC"
+}
