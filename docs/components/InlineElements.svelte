@@ -1,6 +1,6 @@
 <script>
   // Union Components
-  import Text from "../../components/Text/Text.svelte";
+  import Text from "../../src/components/Text/Text.svelte";
 </script>
 
 <div>

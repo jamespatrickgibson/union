@@ -8,7 +8,7 @@
     Link,
     Text,
     Stack
-  } from "../src/components/components.module.js";
+  } from "../../src/components/components.module.js";
 
   // Docs Components
   import InlineElements from "../components/InlineElements.svelte";

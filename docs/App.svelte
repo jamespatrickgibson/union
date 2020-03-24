@@ -10,6 +10,8 @@
 
   // Docs Components & Pages
   import About from "./views/About.svelte";
+  import Typography from "./views/Typography.svelte";
+  import Zen from "./views/Zen.svelte";
   import DocsHeader from "./components/DocsHeader/DocsHeader.svelte";
 </script>
 
@@ -23,11 +25,9 @@
   <Box padding="l">
     <Stack space="xl">
       <About />
-      <!-- <About />
       <Divider />
       <Typography />
-      <Divider />
-      <Zen /> -->
+      <Zen />
     </Stack>
   </Box>
 </main>
