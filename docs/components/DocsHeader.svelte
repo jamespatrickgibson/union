@@ -5,7 +5,7 @@
     Inline,
     Text,
     Stack
-  } from "../../../src/components/components.module.js";
+  } from "../../src/components/components.module.js";
 </script>
 
 <header>

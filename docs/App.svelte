@@ -13,16 +13,14 @@
   import About from "./views/About.md";
   import Typography from "./views/Typography.svelte";
   import Zen from "./views/Zen.svelte";
-  import DocsHeader from "./components/DocsHeader/DocsHeader.svelte";
+  import DocsLayout from "./components/DocsLayout.svelte";
 </script>
 
 <style lang="scss" global>
   @import "src/scss/union.scss";
 </style>
 
-<DocsHeader />
-
-<main>
+<DocsLayout>
   <Box padding="l">
     <Stack space="xl">
       <About />
@@ -31,4 +29,4 @@
       <Zen />
     </Stack>
   </Box>
-</main>
+</DocsLayout>
