@@ -5,12 +5,12 @@
     Divider,
     Heading,
     Text,
+    TextContainer,
     Stack
   } from "../src/components/components.module.js";
 
   // Docs Components & Pages
-  import About from "./views/About.svelte";
-  import Test from "./views/Test.md";
+  import About from "./views/About.md";
   import Typography from "./views/Typography.svelte";
   import Zen from "./views/Zen.svelte";
   import DocsHeader from "./components/DocsHeader/DocsHeader.svelte";
@@ -25,7 +25,6 @@
 <main>
   <Box padding="l">
     <Stack space="xl">
-      <Test />
       <About />
       <Divider />
       <Typography />
