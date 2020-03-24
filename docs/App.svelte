@@ -5,18 +5,19 @@
     Divider,
     Heading,
     Text,
+    TextContainer,
     Stack
   } from "../src/components/components.module.js";
 
   // Docs Components & Pages
-  import About from "./views/About.svelte";
+  import About from "./views/About.md";
   import Typography from "./views/Typography.svelte";
   import Zen from "./views/Zen.svelte";
   import DocsHeader from "./components/DocsHeader/DocsHeader.svelte";
 </script>
 
 <style lang="scss" global>
-  @import "./src/scss/union.scss";
+  @import "src/scss/union.scss";
 </style>
 
 <DocsHeader />

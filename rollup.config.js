@@ -5,6 +5,8 @@ import { terser } from "rollup-plugin-terser";
 import pkg from "./package.json";
 import resolve from "@rollup/plugin-node-resolve";
 import svelte from "rollup-plugin-svelte";
+// import postcss from "postcss";
+const {markdown} = require('svelte-preprocess-markdown');
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -40,6 +42,8 @@ export default {
     svelte({
       // enable run-time checks when not in production
       dev: !production,
+      // Add '.md', to the extensions
+      extensions: ['.svelte','.md'],
       // we'll extract any component CSS out into
       // a separate file — better for performance
       css: css => {
@@ -50,10 +54,13 @@ export default {
        * Auto preprocess supported languages with
        * '<template>'/'external src files' support
        **/
-      preprocess: autoPreprocess({
-        postcss: true,
-        scss: { includePaths: ["src"] }
-      })
+      preprocess: [
+        autoPreprocess({
+          postcss: true,
+          scss: { includePaths: ["src"] }
+        }),
+        markdown()
+      ]
     }),
 
     // If you have external dependencies installed from

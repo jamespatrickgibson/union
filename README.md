@@ -8,7 +8,11 @@ A design style boilerplate for creating scalable design architecture in any fram
 
 ## Credits
 
-Leverages [destyle.css](https://github.com/nicolas-cusan/destyle.css) as an opinionated style reset, and [html5-test-page](https://github.com/cbracco/html5-test-page) for testing out common html element styling.
+[destyle.css](https://github.com/nicolas-cusan/destyle.css)
+
+[HTML5 Test Page](https://github.com/cbracco/html5-test-page)
+
+[Svelte Preprocess Markdown](https://alexxnb.github.io/svelte-preprocess-markdown/)
 
 ## Get started
 
