@@ -10,13 +10,14 @@
 
   // Docs Components & Pages
   import About from "./views/About.svelte";
+  import Test from "./views/Test.md";
   import Typography from "./views/Typography.svelte";
   import Zen from "./views/Zen.svelte";
   import DocsHeader from "./components/DocsHeader/DocsHeader.svelte";
 </script>
 
 <style lang="scss" global>
-  @import "./src/scss/union.scss";
+  @import "src/scss/union.scss";
 </style>
 
 <DocsHeader />
@@ -24,6 +25,7 @@
 <main>
   <Box padding="l">
     <Stack space="xl">
+      <Test />
       <About />
       <Divider />
       <Typography />

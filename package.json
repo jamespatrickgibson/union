@@ -24,7 +24,8 @@
     "sass": "^1.26.3",
     "sirv-cli": "^0.4.5",
     "svelte": "^3.0.0",
-    "svelte-preprocess": "^3.5.0"
+    "svelte-preprocess": "^3.5.0",
+    "svelte-preprocess-markdown": "^2.7.0"
   },
   "keywords": [
     "svelte"
