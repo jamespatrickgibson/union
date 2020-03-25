@@ -21,12 +21,10 @@
 </style>
 
 <DocsLayout>
-  <Box padding="l">
-    <Stack space="xl">
-      <About />
-      <Divider />
-      <Typography />
-      <Zen />
-    </Stack>
-  </Box>
+  <Stack space="xl">
+    <About />
+    <Divider />
+    <Typography />
+    <Zen />
+  </Stack>
 </DocsLayout>
