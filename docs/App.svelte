@@ -11,8 +11,9 @@
 
   // Docs Components & Pages
   import About from "./views/About.md";
+  import Headings from "./views/Headings.md";
+  import TextDocs from "./views/Text.docs.md";
   import Typography from "./views/Typography.svelte";
-  import Zen from "./views/Zen.svelte";
   import DocsLayout from "./components/DocsLayout.svelte";
 </script>
 
@@ -24,7 +25,8 @@
   <Stack space="xl">
     <About />
     <Divider />
+    <Headings />
+    <TextDocs />
     <Typography />
-    <Zen />
   </Stack>
 </DocsLayout>
