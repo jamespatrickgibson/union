@@ -46,7 +46,7 @@
 
   Since Union is such a new project, the design of the system will be continuously iterated in the open. For now, Union should be considered pre-release and unstable for any production use.
 
-  #### Who?
+  #### Team
 
   Union is currently designed and built by [@negativespace.io](https://twitter.com/negativespaceio)
   </TextContainer>
