@@ -1,0 +1,25 @@
+{
+  "name": "union",
+  "version": "0.0.1",
+  "description": "A design style boilerplate for creating scalable design architecture in any framework",
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamespatrickgibson/union.git"
+  },
+  "author": "James Patrick Gibson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamespatrickgibson/union/issues"
+  },
+  "homepage": "https://github.com/jamespatrickgibson/union#readme",
+  "dependencies": {
+    "docz": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
