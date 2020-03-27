@@ -1,0 +1,28 @@
+---
+name: Text
+menu: Components
+---
+
+import { Playground, Props } from "docz";
+import { Text } from "./Text";
+
+# Text
+
+## Basic usage
+
+<Playground>
+  <Text>Some message</Text>
+</Playground>
+
+## Using different kinds
+
+<Playground>
+  <Text kind="info">Some message</Text>
+  <Text kind="positive">Some message</Text>
+  <Text kind="negative">Some message</Text>
+  <Text kind="warning">Some message</Text>
+</Playground>
+
+## Properties
+
+<Props of={Text} />
