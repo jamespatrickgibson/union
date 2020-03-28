@@ -1,3 +1,16 @@
-.text {
-  background: pink;
+@use "utils/all" as *;
+
+.un-text {
+  font-family: $family-primary;
+  font-weight: $weight-normal;
+
+  &.is-size-1 {
+    @include text-preset-03;
+  }
+  &.is-size-2 {
+    @include text-preset-02;
+  }
+  &.is-size-3 {
+    @include text-preset-01;
+  }
 }

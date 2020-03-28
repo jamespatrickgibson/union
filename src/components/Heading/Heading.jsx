@@ -2,22 +2,25 @@ import React from "react";
 import t from "prop-types";
 import classNames from "classnames";
 
-import "./Text.scss";
+import "./Heading.scss";
 
-export const Text = ({ children, size }) => {
+export const Heading = ({ children, size }) => {
   let classes = classNames({
-    "un-text": true,
+    "un-heading": true,
     "is-size-1": size === "1",
     "is-size-2": size === "2",
-    "is-size-3": size === "3"
+    "is-size-3": size === "3",
+    "is-size-4": size === "4",
+    "is-size-5": size === "5",
+    "is-size-6": size === "6"
   });
   return <div className={classes}>{children}</div>;
 };
 
-Text.propTypes = {
+Heading.propTypes = {
   size: t.oneOf(["1", "2", "3"])
 };
 
-Text.defaultProps = {
-  size: "2"
+Heading.defaultProps = {
+  size: "3"
 };
