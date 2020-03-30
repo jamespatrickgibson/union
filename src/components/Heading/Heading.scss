@@ -2,6 +2,7 @@
 
 .un-heading {
   font-family: $family-primary;
+  max-width: $measure;
 
   &.is-size-1 {
     @include text-preset-07--bold;

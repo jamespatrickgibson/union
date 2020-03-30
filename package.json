@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A design style boilerplate for creating scalable design architecture in any framework",
   "scripts": {
-    "docz:dev": "docz dev",
+    "dev": "docz dev",
     "docz:build": "docz build",
     "docz:serve": "docz build && docz serve"
   },
@@ -27,7 +27,6 @@
     "sass": "^1.26.3"
   },
   "devDependencies": {
-    "classnames": "^2.2.6",
-    "docz-iframe-playground": "^1.0.9"
+    "classnames": "^2.2.6"
   }
 }

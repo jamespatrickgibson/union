@@ -3,6 +3,7 @@
 .un-text {
   font-family: $family-primary;
   font-weight: $weight-normal;
+  max-width: $measure;
 
   &.is-size-1 {
     @include text-preset-03;

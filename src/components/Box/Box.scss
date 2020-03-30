@@ -1,0 +1,53 @@
+@use "utils/all" as *;
+
+.un-box {
+  &.is-space-xxs {
+    padding: $space-xxs;
+  }
+  &.is-space-xs {
+    padding: $space-xs;
+    &.is-squish {
+      padding: $space-xxs $space-xs;
+    }
+  }
+  &.is-space-s {
+    padding: $space-s;
+    &.is-squish {
+      padding: $space-xs $space-s;
+    }
+  }
+  &.is-space-m {
+    padding: $space-m;
+    &.is-squish {
+      padding: $space-s $space-m;
+    }
+  }
+  &.is-space-l {
+    padding: $space-l;
+    &.is-squish {
+      padding: $space-m $space-l;
+    }
+  }
+  &.is-space-xl {
+    padding: $space-xl;
+    &.is-squish {
+      padding: $space-l $space-xl;
+    }
+  }
+  &.is-space-xxl {
+    padding: $space-xxl;
+    &.is-squish {
+      padding: $space-xl $space-xxl;
+    }
+  }
+  &.is-bg-dark {
+    background: $background-dark;
+    color: $color-white;
+  }
+  &.is-bg-neutral {
+    background: $background-neutral;
+  }
+  &.is-bg-neutral-light {
+    background: $background-neutral-light;
+  }
+}
