@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import "./Text.scss";
 
-export const Text = ({ children, size }) => {
+const Text = ({ children, size }) => {
   let classes = classNames({
     "un-text": true,
     "is-size-1": size === "1",
@@ -21,3 +21,5 @@ Text.propTypes = {
 Text.defaultProps = {
   size: "2"
 };
+
+export default Text;

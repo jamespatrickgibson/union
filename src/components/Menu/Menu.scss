@@ -1,0 +1,22 @@
+@use "utils/all" as *;
+
+.un-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: $family-primary;
+
+  &__section-title {
+    @include text-preset-03--bold;
+  }
+  &__item {
+    @include text-preset-03;
+
+    a {
+      text-decoration: none;
+    }
+    a:visited {
+      color: initial;
+    }
+  }
+}

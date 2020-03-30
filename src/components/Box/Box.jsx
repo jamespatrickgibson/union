@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import "./Box.scss";
 
-export const Box = ({ children, space, squish, background }) => {
+const Box = ({ children, space, squish, background }) => {
   let classes = classNames({
     "un-box": true,
     "is-space-xxs": space === "xxs",
@@ -31,3 +31,5 @@ Box.defaultProps = {
   space: "m",
   background: "default"
 };
+
+export default Box;

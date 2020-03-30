@@ -5,11 +5,11 @@ import { theme, ComponentsProvider } from "docz";
 import "./docs.scss";
 
 // Union Components
-import { Text } from "@/Text/Text";
+import Text from "@/Text/Text";
 import { Props } from "@/Props/Props";
 
 import * as Headings from "./Headings";
-import { Menu } from "./Menu";
+import { DocsMenu } from "./DocsMenu";
 
 const map = {
   h1: Headings.H1,
@@ -25,7 +25,7 @@ const map = {
 const Theme = ({ children }) => (
   <main className="union-docs">
     <nav className="union-docs__nav">
-      <Menu />
+      <DocsMenu />
     </nav>
     <div className="union-docs__body">
       <ComponentsProvider components={map}>{children}</ComponentsProvider>
