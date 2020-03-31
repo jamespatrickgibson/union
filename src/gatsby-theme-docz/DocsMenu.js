@@ -3,7 +3,6 @@ import React from "react";
 import { useMenus, Link } from "docz";
 
 import UnionMenu from "@/Menu/Menu";
-import Text from "@/Text/Text";
 import MenuItem from "@/Menu/MenuItem";
 import MenuSection from "@/Menu/MenuSection";
 

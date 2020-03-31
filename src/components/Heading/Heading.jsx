@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 import "./Heading.scss";
 
-export const Heading = ({ children, size }) => {
+const Heading = ({ children, size }) => {
   let classes = classNames({
     "un-heading": true,
     "is-size-1": size === "1",
@@ -24,3 +24,5 @@ Heading.propTypes = {
 Heading.defaultProps = {
   size: "3"
 };
+
+export default Heading;

@@ -1,4 +1,8 @@
+@use "utils/all" as *;
+// @import "union";
+
 .union-docs {
   display: grid;
   grid-template-columns: 15rem 1fr;
+  grid-gap: $space-l;
 }
