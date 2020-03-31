@@ -6,5 +6,8 @@ node_modules
 # Docz
 .docz
 
+# build
+/public
+
 # misc
 .DS_Store
