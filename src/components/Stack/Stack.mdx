@@ -1,0 +1,77 @@
+---
+name: Stack
+route: /stack
+menu: Components
+---
+
+import { Playground, Props } from "docz";
+
+import Box from "@/Box/Box";
+import Heading from "@/Heading/Heading";
+import Stack from "@/Stack/Stack";
+import Text from "@/Text/Text";
+
+# Stack
+
+## Basic usage
+
+<Playground>
+  <Stack>
+    <Box background="neutralLight">
+      <Text>Box in a default stack</Text>
+    </Box>
+    <Box background="neutralLight">
+      <Text>Box in a default stack</Text>
+    </Box>
+    <Box background="neutralLight">
+      <Text>Box in a default stack</Text>
+    </Box>
+  </Stack>
+</Playground>
+
+## Spacing
+
+### Extra Large
+
+<Playground>
+  <Stack space="xl">
+    <Box background="neutralLight">
+      <Text>Large Spacing</Text>
+    </Box>
+    <Box background="neutralLight">
+      <Text>Large Spacing</Text>
+    </Box>
+    <Box background="neutralLight">
+      <Text>Large Spacing</Text>
+    </Box>
+  </Stack>
+</Playground>
+
+### Small
+
+<Playground>
+  <Stack space="s">
+    <Box background="neutralLight">
+      <Text>Small Spacing</Text>
+    </Box>
+    <Box background="neutralLight">
+      <Text>Small Spacing</Text>
+    </Box>
+    <Box background="neutralLight">
+      <Text>Small Spacing</Text>
+    </Box>
+  </Stack>
+</Playground>
+
+### Headings & Text
+
+<Playground>
+  <Stack space="xxs">
+    <Heading>Extra Small Spacing</Heading>
+    <Heading size="5">Great for Grouping Headings.</Heading>
+  </Stack>
+</Playground>
+
+## Properties
+
+<Props of={Text} />
