@@ -1,0 +1,25 @@
+@use "utils/all" as *;
+
+.un-heading {
+  font-family: $family-primary;
+  max-width: $measure;
+
+  &.is-size-1 {
+    @include text-preset-07--bold;
+  }
+  &.is-size-2 {
+    @include text-preset-06--bold;
+  }
+  &.is-size-3 {
+    @include text-preset-05--bold;
+  }
+  &.is-size-4 {
+    @include text-preset-04--bold;
+  }
+  &.is-size-5 {
+    @include text-preset-03--bold;
+  }
+  &.is-size-6 {
+    @include text-preset-02--bold;
+  }
+}

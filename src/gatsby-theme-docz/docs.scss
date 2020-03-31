@@ -1,0 +1,15 @@
+@use "utils/all" as *;
+// @import "union";
+
+body {
+  margin: 0;
+}
+
+.union-docs {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+
+  &__nav {
+    border-right: 1px solid $color-grey-050;
+  }
+}

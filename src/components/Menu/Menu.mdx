@@ -1,0 +1,31 @@
+---
+name: Menu
+route: /menu
+menu: Components
+---
+
+import { Playground } from "docz";
+import Link from "@/Link/Link";
+import Menu from "@/Menu/Menu";
+import MenuItem from "@/Menu/MenuItem";
+import MenuSection from "@/Menu/MenuSection";
+
+# Menu
+
+## Basic usage
+
+<Playground>
+  <Menu>
+    <MenuSection title="Menu Title">
+      <MenuItem>
+        <Link to="/menu">Item With Link</Link>
+      </MenuItem>
+      <MenuItem>
+        <Link to="/menu">Item With Link</Link>
+      </MenuItem>
+      <MenuItem>
+        <Link to="/menu">Item With Link</Link>
+      </MenuItem>
+    </MenuSection>
+  </Menu>
+</Playground>
