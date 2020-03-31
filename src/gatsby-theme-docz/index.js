@@ -7,6 +7,7 @@ import "./docs.scss";
 // Union Components
 import Box from "@/Box/Box";
 import Heading from "@/Heading/Heading";
+import Link from "@/Link/Link";
 import Text from "@/Text/Text";
 import { Props } from "@/Props/Props";
 
@@ -25,18 +26,32 @@ const map = {
 };
 
 const Theme = ({ children }) => (
-  <main className="union-docs">
-    <nav className="union-docs__nav">
-      <Box background="dark">
-        <Heading>Union.</Heading>
-        <Text>Version 0.0.1</Text>
+  <>
+    <header class="union-docs-header">
+      <Box background="neutralLight" squish>
+        <Text align="center">
+          This site and project is being designed in the open.{" "}
+          <Link to="/about">Learn More.</Link>
+        </Text>
       </Box>
-      <DocsMenu />
-    </nav>
-    <div className="union-docs__body">
-      <ComponentsProvider components={map}>{children}</ComponentsProvider>
-    </div>
-  </main>
+    </header>
+    <main className="union-docs">
+      <nav className="union-docs__nav">
+        <Box background="dark">
+          <Heading>Union.</Heading>
+          <Text>Version 0.0.1</Text>
+        </Box>
+        <Box space="s">
+          <DocsMenu />
+        </Box>
+      </nav>
+      <div className="union-docs__body">
+        <Box space="xl" squish>
+          <ComponentsProvider components={map}>{children}</ComponentsProvider>
+        </Box>
+      </div>
+    </main>
+  </>
 );
 
 export default theme()(Theme);
