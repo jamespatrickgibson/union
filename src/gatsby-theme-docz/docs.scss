@@ -9,7 +9,7 @@ body {
   display: grid;
   grid-template-columns: 15rem 1fr;
 
-  &__nav {
-    border-right: 1px solid $color-grey-050;
+  &__body {
+    background: $color-grey-050;
   }
 }

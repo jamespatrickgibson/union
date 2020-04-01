@@ -1,8 +1,8 @@
 :root {
   /* Type */
-  --family-primary: 'Inter var', BlinkMacSystemFont, -apple-system, 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-    'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  --family-primary: "Inter var", BlinkMacSystemFont, -apple-system, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
   /* Font Weights */
   --weight-light: 300;
@@ -131,5 +131,6 @@ $background-black: $color-black;
 $background-dark: $color-grey-900;
 $background-neutral: $color-grey-300;
 $background-neutral-light: $color-grey-050;
+$background-light: $color-white;
 
 $border-color: $color-grey-200;

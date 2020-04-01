@@ -17,14 +17,15 @@ const Box = ({ children, space, squish, background }) => {
     "is-squish": squish === true,
     "is-bg-dark": background === "dark",
     "is-bg-neutral": background === "neutral",
-    "is-bg-neutral-light": background === "neutralLight"
+    "is-bg-neutral-light": background === "neutralLight",
+    "is-bg-light": background === "light"
   });
   return <div className={classes}>{children}</div>;
 };
 
 Box.propTypes = {
   space: t.oneOf(["xxs", "xs", "s", "m", "l", "xl", "xxl"]),
-  background: t.oneOf(["dark", "neutral", "neutralLight", "default"])
+  background: t.oneOf(["dark", "neutral", "neutralLight", "light", "default"])
 };
 
 Box.defaultProps = {

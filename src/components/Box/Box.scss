@@ -40,6 +40,10 @@
       padding: $space-xl $space-xxl;
     }
   }
+  &.is-bg-black {
+    background: $background-black;
+    color: $color-white;
+  }
   &.is-bg-dark {
     background: $background-dark;
     color: $color-white;
@@ -49,5 +53,8 @@
   }
   &.is-bg-neutral-light {
     background: $background-neutral-light;
+  }
+  &.is-bg-light {
+    background: $background-light;
   }
 }
