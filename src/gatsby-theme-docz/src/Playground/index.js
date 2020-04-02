@@ -9,9 +9,6 @@ import copy from "copy-text-to-clipboard";
 import { Wrapper } from "./Wrapper";
 import { usePrismTheme } from "~utils/theme";
 
-// Import Union Components
-import Box from "@/Box/Box";
-
 const getResizableProps = (width, setWidth) => ({
   minWidth: 260,
   maxWidth: "100%",
