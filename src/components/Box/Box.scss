@@ -47,6 +47,13 @@
   &.is-bg-dark {
     background: $background-dark;
     color: $color-white;
+
+    a {
+      color: $color-white;
+    }
+    a:visited {
+      color: $color-white;
+    }
   }
   &.is-bg-neutral {
     background: $background-neutral;

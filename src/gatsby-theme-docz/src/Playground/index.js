@@ -68,9 +68,7 @@ export const Playground = ({ code, scope, language, useScoping = false }) => {
         theme={theme}
       >
         <div className="union-docs__live-preview">
-          <Box background="light">
-            <LivePreview />
-          </Box>
+          <LivePreview />
         </div>
         <div>
           {/* <Wrapper
@@ -80,9 +78,9 @@ export const Playground = ({ code, scope, language, useScoping = false }) => {
           >
             {showLivePreview && <LivePreview data-testid="live-preview" />}
           </Wrapper> */}
-          <div>
+          <div className="union-docs__playground-actions">
             <button onClick={copyCode}>Copy Code</button>
-            <button onClick={toggleCode}>View and Edit Code</button>
+            <button onClick={toggleCode}>Live Edit Code</button>
           </div>
         </div>
         {showingCode && (
@@ -91,9 +89,9 @@ export const Playground = ({ code, scope, language, useScoping = false }) => {
             useScoping={useScoping}
             showingCode={showingCode}
           >
-            <Box background="light">
+            <div class="union-docs__live-editor">
               <LiveEditor data-testid="live-editor" />
-            </Box>
+            </div>
           </Wrapper>
         )}
         {showLiveError && <LiveError data-testid="live-error" />}
