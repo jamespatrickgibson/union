@@ -29,7 +29,7 @@ Box.propTypes = {
 };
 
 Box.defaultProps = {
-  space: "m",
+  space: "l",
   background: "default"
 };
 

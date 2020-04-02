@@ -12,6 +12,7 @@ import Text from "@/Text/Text";
 import { Props } from "@/Props/Props";
 
 import * as Headings from "./Headings";
+import { Playground } from "./src/Playground/index";
 import { DocsMenu } from "./DocsMenu";
 
 const map = {
@@ -22,13 +23,14 @@ const map = {
   h5: Headings.H5,
   h6: Headings.H6,
   p: Text,
+  playground: Playground,
   props: Props
 };
 
 const Theme = ({ children }) => (
   <>
     <header class="union-docs-header">
-      <Box background="neutralLight" squish>
+      <Box background="dark" squish>
         <Text align="center">
           This site and project is being designed in the open.{" "}
           <Link to="/about">Learn More.</Link>
