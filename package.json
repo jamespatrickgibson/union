@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "docz dev",
     "docz:build": "docz build",
-    "docz:serve": "docz build && docz serve"
+    "docz:serve": "docz build && docz serve",
+    "tokens:build": "node tokens.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "sass": "^1.26.3"
   },
   "devDependencies": {
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "style-dictionary": "^2.8.3"
   }
 }
