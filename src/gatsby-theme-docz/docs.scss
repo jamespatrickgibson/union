@@ -9,9 +9,14 @@ body {
 .union-docs {
   display: grid;
   grid-template-columns: 15rem 1fr;
+  background: var(--color-neutral-500);
 
   &__body {
     background: $color-grey-050;
+  }
+
+  &__nav {
+    background: $color-white;
   }
 
   &__live-preview {
