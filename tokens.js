@@ -7,9 +7,9 @@ const StyleDictionary = require("style-dictionary").extend({
       files: [
         {
           destination: "tokens.scss",
-          format: "scss/variables",
-        },
-      ],
+          format: "scss/variables"
+        }
+      ]
     },
     css: {
       transformGroup: "css",
@@ -17,11 +17,11 @@ const StyleDictionary = require("style-dictionary").extend({
       files: [
         {
           destination: "tokens.css",
-          format: "css/variables",
-        },
-      ],
-    },
-  },
+          format: "css/variables"
+        }
+      ]
+    }
+  }
 });
 
 StyleDictionary.buildAllPlatforms();

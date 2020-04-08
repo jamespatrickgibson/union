@@ -2,12 +2,13 @@
 import React from "react";
 import { theme, ComponentsProvider } from "docz";
 
+import "@/../styles/tokens/tokens.css";
 import "./docs.scss";
 
 // Union Components
 import Box from "@/Box/Box";
 import Heading from "@/Heading/Heading";
-import Link from "@/Link/Link";
+// import Link from "@/Link/Link";
 import Text from "@/Text/Text";
 import { Props } from "@/Props/Props";
 
@@ -29,14 +30,14 @@ const map = {
 
 const Theme = ({ children }) => (
   <>
-    <header class="union-docs-header">
+    {/* <header class="union-docs-header">
       <Box background="neutral" squish>
         <Text align="center">
           This site and project is being designed in the open.{" "}
           <Link to="/about">Learn More.</Link>
         </Text>
       </Box>
-    </header>
+    </header> */}
     <main className="union-docs">
       <nav className="union-docs__nav">
         <Box background="dark">
