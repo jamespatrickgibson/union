@@ -1,11 +1,14 @@
 {
   "name": "union",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A design style boilerplate for creating scalable design architecture in any framework",
   "scripts": {
-    "dev": "docz dev",
-    "docz:build": "docz build",
-    "docz:serve": "docz build && docz serve",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "tokens:build": "node tokens.js"
   },
   "repository": {
@@ -19,9 +22,13 @@
   },
   "homepage": "https://github.com/jamespatrickgibson/union#readme",
   "dependencies": {
-    "docz": "^2.2.0",
+    "@mdx-js/mdx": "^1.5.8",
+    "@mdx-js/react": "^1.5.8",
+    "gatsby": "^2.20.18",
+    "gatsby-plugin-mdx": "^1.1.7",
+    "gatsby-plugin-page-creator": "^2.2.1",
     "gatsby-plugin-sass": "^2.2.1",
-    "gatsby-theme-docz": "^2.2.0",
+    "gatsby-source-filesystem": "^2.2.2",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -29,6 +36,7 @@
   },
   "devDependencies": {
     "classnames": "^2.2.6",
+    "prettier": "^2.0.4",
     "style-dictionary": "^2.8.3"
   }
 }

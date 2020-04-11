@@ -3,11 +3,9 @@
 # dependencies
 node_modules
 
-# Docz
-.docz
-
 # build
-/public
+/docs/.cache
+/docs/public
 
 # misc
 .DS_Store
