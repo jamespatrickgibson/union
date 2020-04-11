@@ -20,6 +20,17 @@ const StyleDictionary = require("style-dictionary").extend({
           format: "css/variables"
         }
       ]
+    },
+    json: {
+      transformGroup: "web",
+      buildPath: "src/styles/tokens/",
+      files: [
+        {
+          destination: "tokens-json.js",
+          format: "javascript/object",
+          name: "tokens"
+        }
+      ]
     }
   }
 });
