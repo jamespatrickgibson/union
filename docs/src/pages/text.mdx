@@ -1,28 +1,29 @@
 ---
-name: Box
-route: /box
+name: Text
+route: /text
 menu: Components
 ---
 
-import { Playground, Props } from "docz";
-import Box from "@/Box/Box";
-import Text from "@/Text/Text";
-
-# Box
+# Text
 
 ## Basic usage
 
 <Playground>
-  <Box>
-    <Text>Default Box</Text>
-  </Box>
+  <Text>
+    Legibility, in practice, amounts simply to what one is accustomed to. But
+    this is not to say that because we have got used to something demonstrably
+    less legible than something else would be if we could get used to it, we
+    should make no effort to scrap the existing thing. This was done by the
+    Florentines and Romans of the fifteenth century; it requires simply good
+    sense in the originators & good will in the rest of us.
+  </Text>
 </Playground>
 
 ## Sizes
 
 <Playground>
-  <Box space="l">
-    <Text>
+  <Stack>
+    <Text size="1">
       Legibility, in practice, amounts simply to what one is accustomed to. But
       this is not to say that because we have got used to something demonstrably
       less legible than something else would be if we could get used to it, we
@@ -30,44 +31,38 @@ import Text from "@/Text/Text";
       Florentines and Romans of the fifteenth century; it requires simply good
       sense in the originators & good will in the rest of us.
     </Text>
-  </Box>
+
+    <Text size="2">
+      Legibility, in practice, amounts simply to what one is accustomed to. But
+      this is not to say that because we have got used to something demonstrably
+      less legible than something else would be if we could get used to it, we
+      should make no effort to scrap the existing thing. This was done by the
+      Florentines and Romans of the fifteenth century; it requires simply good
+      sense in the originators & good will in the rest of us.
+    </Text>
+
+    <Text size="3">
+      Legibility, in practice, amounts simply to what one is accustomed to. But
+      this is not to say that because we have got used to something demonstrably
+      less legible than something else would be if we could get used to it, we
+      should make no effort to scrap the existing thing. This was done by the
+      Florentines and Romans of the fifteenth century; it requires simply good
+      sense in the originators & good will in the rest of us.
+    </Text>
+
+  </Stack>
 </Playground>
 
-## Backgrounds
+## Alignment
 
 <Playground>
-  <Box background="dark">
-    <Text>
-      Legibility, in practice, amounts simply to what one is accustomed to. But
-      this is not to say that because we have got used to something demonstrably
-      less legible than something else would be if we could get used to it, we
-      should make no effort to scrap the existing thing. This was done by the
-      Florentines and Romans of the fifteenth century; it requires simply good
-      sense in the originators & good will in the rest of us.
-    </Text>
-  </Box>
-  <Box background="neutral">
-    <Text>
-      Legibility, in practice, amounts simply to what one is accustomed to. But
-      this is not to say that because we have got used to something demonstrably
-      less legible than something else would be if we could get used to it, we
-      should make no effort to scrap the existing thing. This was done by the
-      Florentines and Romans of the fifteenth century; it requires simply good
-      sense in the originators & good will in the rest of us.
-    </Text>
-  </Box>
-  <Box background="neutralLight">
-    <Text>
-      Legibility, in practice, amounts simply to what one is accustomed to. But
-      this is not to say that because we have got used to something demonstrably
-      less legible than something else would be if we could get used to it, we
-      should make no effort to scrap the existing thing. This was done by the
-      Florentines and Romans of the fifteenth century; it requires simply good
-      sense in the originators & good will in the rest of us.
-    </Text>
-  </Box>
+  <Stack>
+    <Text>Text Aligned Left</Text>
+    <Text align="center">Text Aligned Center</Text>
+    <Text align="right">Text Aligned Right</Text>
+  </Stack>
 </Playground>
 
 ## Properties
 
-<Props of={Box} />
+<Props of={Text} />
