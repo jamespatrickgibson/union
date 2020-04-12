@@ -4,6 +4,7 @@
 node_modules
 
 # build
+/docs-old
 /docs/.cache
 /docs/public
 
