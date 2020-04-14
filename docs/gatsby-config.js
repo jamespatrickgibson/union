@@ -3,13 +3,18 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
-}
-module.exports = {
+  siteMetadata: {
+    title: `Design With Union`,
+  },
   plugins: [
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        implementation: require("sass"),
+        includePaths: ["../union/styles"],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,6 +22,13 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
-    `gatsby-plugin-mdx`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          default: require.resolve("./src/components/default-page-layout.js"),
+        },
+      },
+    },
   ],
-}
+};

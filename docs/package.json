@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "name": "union-docs",
+  "description": "A design style boilerplate for creating scalable design architecture in any framework",
   "version": "0.1.0",
+  "author": "James Patrick Gibson",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -10,18 +10,19 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.5.8",
     "@mdx-js/react": "^1.5.8",
     "gatsby": "^2.20.12",
     "gatsby-plugin-mdx": "^1.1.7",
+    "gatsby-plugin-sass": "^2.2.1",
     "gatsby-source-filesystem": "^2.2.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-live": "^2.2.2"
+    "react-live": "^2.2.2",
+    "sass": "^1.26.3"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
