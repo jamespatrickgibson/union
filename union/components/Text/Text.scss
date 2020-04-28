@@ -1,18 +1,13 @@
 @use "utils/all" as *;
 
 .un-text {
-  font-family: $family-primary;
-  font-weight: $weight-normal;
-  max-width: $measure;
+  font-family: var(--family-primary);
 
-  &.is-size-1 {
-    @include text-preset-03;
-  }
-  &.is-size-2 {
-    @include text-preset-02;
-  }
-  &.is-size-3 {
-    @include text-preset-01;
+  @each $number, $scale in $type-scale {
+    &.is-size-#{$number} {
+      font-size: $scale;
+      line-height: var(--line-height-#{$number});
+    }
   }
 
   &.is-align-center {

@@ -1,8 +1,10 @@
 /* Design Tokens as CSS Variables (Custom Properties)
    ========================================================================== */
-@forward 'tokens';
+// @forward 'tokens';
+@forward '../base/design-tokens';
 
 /* Mixins & Functions
    ========================================================================== */
+@forward 'variables';
 @forward 'functions';
 @forward 'mixins';

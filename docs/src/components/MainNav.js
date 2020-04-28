@@ -1,26 +1,37 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Text } from "../../../union/components/components";
+import { Box, Heading, Text } from "../../../union/components/components";
 
 export default () => (
   <nav>
-    <Text>
-      <Link to="/">Home</Link>
-    </Text>
-    <Text>
-      <Link to="/about/">About</Link>
-    </Text>
-    <Text>
-      <Link to="/box/">Box</Link>
-    </Text>
-    <Text>
-      <Link to="/heading/">Heading</Link>
-    </Text>
-    <Text>
-      <Link to="/stack/">Stack</Link>
-    </Text>
-    <Text>
-      <Link to="/text/">Text</Link>
-    </Text>
+    <Box>
+      <Text>
+        <Link to="/">Home</Link>
+      </Text>
+
+      <Heading size="5">Overview</Heading>
+      <Text>
+        <Link to="/about/">About</Link>
+      </Text>
+
+      <Heading size="5">Design</Heading>
+      <Text>
+        <Link to="/design-tokens/">Tokens</Link>
+      </Text>
+
+      <Heading size="5">Components</Heading>
+      <Text>
+        <Link to="/box/">Box</Link>
+      </Text>
+      <Text>
+        <Link to="/heading/">Heading</Link>
+      </Text>
+      <Text>
+        <Link to="/stack/">Stack</Link>
+      </Text>
+      <Text>
+        <Link to="/text/">Text</Link>
+      </Text>
+    </Box>
   </nav>
 );

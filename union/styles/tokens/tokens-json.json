@@ -1,9 +1,4 @@
-/**
- * Do not edit directly
- * Generated on Thu, 09 Apr 2020 16:09:34 GMT
- */
-
-var tokens = {
+{
   "font": {
     "stack": {
       "base": {
@@ -17,11 +12,7 @@ var tokens = {
           "type": "stack",
           "item": "base"
         },
-        "path": [
-          "font",
-          "stack",
-          "base"
-        ]
+        "path": ["font", "stack", "base"]
       },
       "monospace": {
         "value": "Monaco, Consolas, 'Lucida Console', monospace",
@@ -34,11 +25,7 @@ var tokens = {
           "type": "stack",
           "item": "monospace"
         },
-        "path": [
-          "font",
-          "stack",
-          "monospace"
-        ]
+        "path": ["font", "stack", "monospace"]
       }
     },
     "weight": {
@@ -53,11 +40,7 @@ var tokens = {
           "type": "weight",
           "item": "light"
         },
-        "path": [
-          "font",
-          "weight",
-          "light"
-        ]
+        "path": ["font", "weight", "light"]
       },
       "normal": {
         "value": "400",
@@ -70,11 +53,7 @@ var tokens = {
           "type": "weight",
           "item": "normal"
         },
-        "path": [
-          "font",
-          "weight",
-          "normal"
-        ]
+        "path": ["font", "weight", "normal"]
       },
       "bold": {
         "value": "700",
@@ -87,11 +66,7 @@ var tokens = {
           "type": "weight",
           "item": "bold"
         },
-        "path": [
-          "font",
-          "weight",
-          "bold"
-        ]
+        "path": ["font", "weight", "bold"]
       }
     },
     "size": {
@@ -108,18 +83,14 @@ var tokens = {
           "type": "size",
           "item": "1"
         },
-        "path": [
-          "font",
-          "size",
-          "1"
-        ]
+        "path": ["font", "size", "1"]
       },
       "2": {
         "value": "0.75rem",
-        "comment": "12px",
+        "comment": "12pt",
         "original": {
           "value": "0.75rem",
-          "comment": "12px"
+          "comment": "12pt"
         },
         "name": "font-size-2",
         "attributes": {
@@ -127,18 +98,14 @@ var tokens = {
           "type": "size",
           "item": "2"
         },
-        "path": [
-          "font",
-          "size",
-          "2"
-        ]
+        "path": ["font", "size", "2"]
       },
       "3": {
         "value": "0.875rem",
-        "comment": "14px",
+        "comment": "14pt",
         "original": {
           "value": "0.875rem",
-          "comment": "14px"
+          "comment": "14pt"
         },
         "name": "font-size-3",
         "attributes": {
@@ -146,18 +113,14 @@ var tokens = {
           "type": "size",
           "item": "3"
         },
-        "path": [
-          "font",
-          "size",
-          "3"
-        ]
+        "path": ["font", "size", "3"]
       },
       "4": {
         "value": "1rem",
-        "comment": "16px",
+        "comment": "16pt",
         "original": {
           "value": "1rem",
-          "comment": "16px"
+          "comment": "16pt"
         },
         "name": "font-size-4",
         "attributes": {
@@ -165,18 +128,14 @@ var tokens = {
           "type": "size",
           "item": "4"
         },
-        "path": [
-          "font",
-          "size",
-          "4"
-        ]
+        "path": ["font", "size", "4"]
       },
       "5": {
         "value": "1.125rem",
-        "comment": "18px",
+        "comment": "18pt",
         "original": {
           "value": "1.125rem",
-          "comment": "18px"
+          "comment": "18pt"
         },
         "name": "font-size-5",
         "attributes": {
@@ -184,18 +143,14 @@ var tokens = {
           "type": "size",
           "item": "5"
         },
-        "path": [
-          "font",
-          "size",
-          "5"
-        ]
+        "path": ["font", "size", "5"]
       },
       "6": {
         "value": "1.3125rem",
-        "comment": "21px",
+        "comment": "21pt",
         "original": {
           "value": "1.3125rem",
-          "comment": "21px"
+          "comment": "21pt"
         },
         "name": "font-size-6",
         "attributes": {
@@ -203,18 +158,14 @@ var tokens = {
           "type": "size",
           "item": "6"
         },
-        "path": [
-          "font",
-          "size",
-          "6"
-        ]
+        "path": ["font", "size", "6"]
       },
       "7": {
         "value": "1.5rem",
-        "comment": "24px",
+        "comment": "24pt",
         "original": {
           "value": "1.5rem",
-          "comment": "24px"
+          "comment": "24pt"
         },
         "name": "font-size-7",
         "attributes": {
@@ -222,18 +173,14 @@ var tokens = {
           "type": "size",
           "item": "7"
         },
-        "path": [
-          "font",
-          "size",
-          "7"
-        ]
+        "path": ["font", "size", "7"]
       },
       "8": {
         "value": "1.875rem",
-        "comment": "30px",
+        "comment": "30pt",
         "original": {
           "value": "1.875rem",
-          "comment": "30px"
+          "comment": "30pt"
         },
         "name": "font-size-8",
         "attributes": {
@@ -241,18 +188,14 @@ var tokens = {
           "type": "size",
           "item": "8"
         },
-        "path": [
-          "font",
-          "size",
-          "8"
-        ]
+        "path": ["font", "size", "8"]
       },
       "9": {
         "value": "2.25rem",
-        "comment": "36px",
+        "comment": "36pt",
         "original": {
           "value": "2.25rem",
-          "comment": "36px"
+          "comment": "36pt"
         },
         "name": "font-size-9",
         "attributes": {
@@ -260,18 +203,14 @@ var tokens = {
           "type": "size",
           "item": "9"
         },
-        "path": [
-          "font",
-          "size",
-          "9"
-        ]
+        "path": ["font", "size", "9"]
       },
       "10": {
         "value": "3rem",
-        "comment": "48px",
+        "comment": "48pt",
         "original": {
           "value": "3rem",
-          "comment": "48px"
+          "comment": "48pt"
         },
         "name": "font-size-10",
         "attributes": {
@@ -279,18 +218,14 @@ var tokens = {
           "type": "size",
           "item": "10"
         },
-        "path": [
-          "font",
-          "size",
-          "10"
-        ]
+        "path": ["font", "size", "10"]
       },
       "11": {
         "value": "3.75rem",
-        "comment": "60px",
+        "comment": "60pt",
         "original": {
           "value": "3.75rem",
-          "comment": "60px"
+          "comment": "60pt"
         },
         "name": "font-size-11",
         "attributes": {
@@ -298,18 +233,14 @@ var tokens = {
           "type": "size",
           "item": "11"
         },
-        "path": [
-          "font",
-          "size",
-          "11"
-        ]
+        "path": ["font", "size", "11"]
       },
       "12": {
         "value": "4.5rem",
-        "comment": "72px",
+        "comment": "72pt",
         "original": {
           "value": "4.5rem",
-          "comment": "72px"
+          "comment": "72pt"
         },
         "name": "font-size-12",
         "attributes": {
@@ -317,11 +248,7 @@ var tokens = {
           "type": "size",
           "item": "12"
         },
-        "path": [
-          "font",
-          "size",
-          "12"
-        ]
+        "path": ["font", "size", "12"]
       }
     }
   },
@@ -336,10 +263,7 @@ var tokens = {
         "category": "color",
         "type": "white"
       },
-      "path": [
-        "color",
-        "white"
-      ]
+      "path": ["color", "white"]
     },
     "black": {
       "value": "#000000",
@@ -351,10 +275,7 @@ var tokens = {
         "category": "color",
         "type": "black"
       },
-      "path": [
-        "color",
-        "black"
-      ]
+      "path": ["color", "black"]
     },
     "neutral": {
       "100": {
@@ -368,11 +289,7 @@ var tokens = {
           "type": "neutral",
           "item": "100"
         },
-        "path": [
-          "color",
-          "neutral",
-          "100"
-        ]
+        "path": ["color", "neutral", "100"]
       },
       "200": {
         "value": "#e9ecef",
@@ -385,11 +302,7 @@ var tokens = {
           "type": "neutral",
           "item": "200"
         },
-        "path": [
-          "color",
-          "neutral",
-          "200"
-        ]
+        "path": ["color", "neutral", "200"]
       },
       "300": {
         "value": "#dee2e6",
@@ -402,11 +315,7 @@ var tokens = {
           "type": "neutral",
           "item": "300"
         },
-        "path": [
-          "color",
-          "neutral",
-          "300"
-        ]
+        "path": ["color", "neutral", "300"]
       },
       "400": {
         "value": "#ced4da",
@@ -419,11 +328,7 @@ var tokens = {
           "type": "neutral",
           "item": "400"
         },
-        "path": [
-          "color",
-          "neutral",
-          "400"
-        ]
+        "path": ["color", "neutral", "400"]
       },
       "500": {
         "value": "#adb5bd",
@@ -436,11 +341,7 @@ var tokens = {
           "type": "neutral",
           "item": "500"
         },
-        "path": [
-          "color",
-          "neutral",
-          "500"
-        ]
+        "path": ["color", "neutral", "500"]
       },
       "600": {
         "value": "#868e96",
@@ -453,11 +354,7 @@ var tokens = {
           "type": "neutral",
           "item": "600"
         },
-        "path": [
-          "color",
-          "neutral",
-          "600"
-        ]
+        "path": ["color", "neutral", "600"]
       },
       "700": {
         "value": "#495057",
@@ -470,11 +367,7 @@ var tokens = {
           "type": "neutral",
           "item": "700"
         },
-        "path": [
-          "color",
-          "neutral",
-          "700"
-        ]
+        "path": ["color", "neutral", "700"]
       },
       "800": {
         "value": "#343a40",
@@ -487,11 +380,7 @@ var tokens = {
           "type": "neutral",
           "item": "800"
         },
-        "path": [
-          "color",
-          "neutral",
-          "800"
-        ]
+        "path": ["color", "neutral", "800"]
       },
       "900": {
         "value": "#212529",
@@ -504,11 +393,7 @@ var tokens = {
           "type": "neutral",
           "item": "900"
         },
-        "path": [
-          "color",
-          "neutral",
-          "900"
-        ]
+        "path": ["color", "neutral", "900"]
       },
       "050": {
         "value": "#f8f9fa",
@@ -521,11 +406,7 @@ var tokens = {
           "type": "neutral",
           "item": "050"
         },
-        "path": [
-          "color",
-          "neutral",
-          "050"
-        ]
+        "path": ["color", "neutral", "050"]
       }
     },
     "background": {
@@ -540,11 +421,7 @@ var tokens = {
           "type": "background",
           "item": "dark"
         },
-        "path": [
-          "color",
-          "background",
-          "dark"
-        ]
+        "path": ["color", "background", "dark"]
       },
       "light": {
         "value": "#f1f3f5",
@@ -557,11 +434,7 @@ var tokens = {
           "type": "background",
           "item": "light"
         },
-        "path": [
-          "color",
-          "background",
-          "light"
-        ]
+        "path": ["color", "background", "light"]
       }
     },
     "border": {
@@ -576,11 +449,7 @@ var tokens = {
           "type": "border",
           "item": "on-light"
         },
-        "path": [
-          "color",
-          "border",
-          "on-light"
-        ]
+        "path": ["color", "border", "on-light"]
       },
       "on-dark": {
         "value": "#212529",
@@ -593,11 +462,7 @@ var tokens = {
           "type": "border",
           "item": "on-dark"
         },
-        "path": [
-          "color",
-          "border",
-          "on-dark"
-        ]
+        "path": ["color", "border", "on-dark"]
       }
     },
     "text": {
@@ -614,12 +479,7 @@ var tokens = {
             "item": "on-light",
             "subitem": "primary"
           },
-          "path": [
-            "color",
-            "text",
-            "on-light",
-            "primary"
-          ]
+          "path": ["color", "text", "on-light", "primary"]
         },
         "secondary": {
           "value": "#212529",
@@ -633,12 +493,7 @@ var tokens = {
             "item": "on-light",
             "subitem": "secondary"
           },
-          "path": [
-            "color",
-            "text",
-            "on-light",
-            "secondary"
-          ]
+          "path": ["color", "text", "on-light", "secondary"]
         },
         "interactive": {
           "value": "#212529",
@@ -652,12 +507,7 @@ var tokens = {
             "item": "on-light",
             "subitem": "interactive"
           },
-          "path": [
-            "color",
-            "text",
-            "on-light",
-            "interactive"
-          ]
+          "path": ["color", "text", "on-light", "interactive"]
         },
         "disabled": {
           "value": "#212529",
@@ -671,12 +521,7 @@ var tokens = {
             "item": "on-light",
             "subitem": "disabled"
           },
-          "path": [
-            "color",
-            "text",
-            "on-light",
-            "disabled"
-          ]
+          "path": ["color", "text", "on-light", "disabled"]
         },
         "error": {
           "value": "#212529",
@@ -690,12 +535,7 @@ var tokens = {
             "item": "on-light",
             "subitem": "error"
           },
-          "path": [
-            "color",
-            "text",
-            "on-light",
-            "error"
-          ]
+          "path": ["color", "text", "on-light", "error"]
         }
       }
     }
@@ -711,10 +551,7 @@ var tokens = {
         "category": "space",
         "type": "0"
       },
-      "path": [
-        "space",
-        "0"
-      ]
+      "path": ["space", "0"]
     },
     "1": {
       "value": "0.25rem",
@@ -728,10 +565,7 @@ var tokens = {
         "category": "space",
         "type": "1"
       },
-      "path": [
-        "space",
-        "1"
-      ]
+      "path": ["space", "1"]
     },
     "2": {
       "value": "0.5rem",
@@ -745,10 +579,7 @@ var tokens = {
         "category": "space",
         "type": "2"
       },
-      "path": [
-        "space",
-        "2"
-      ]
+      "path": ["space", "2"]
     },
     "3": {
       "value": "1rem",
@@ -762,10 +593,7 @@ var tokens = {
         "category": "space",
         "type": "3"
       },
-      "path": [
-        "space",
-        "3"
-      ]
+      "path": ["space", "3"]
     },
     "4": {
       "value": "2rem",
@@ -779,10 +607,7 @@ var tokens = {
         "category": "space",
         "type": "4"
       },
-      "path": [
-        "space",
-        "4"
-      ]
+      "path": ["space", "4"]
     },
     "5": {
       "value": "4rem",
@@ -796,10 +621,7 @@ var tokens = {
         "category": "space",
         "type": "5"
       },
-      "path": [
-        "space",
-        "5"
-      ]
+      "path": ["space", "5"]
     },
     "6": {
       "value": "8rem",
@@ -813,10 +635,7 @@ var tokens = {
         "category": "space",
         "type": "6"
       },
-      "path": [
-        "space",
-        "6"
-      ]
+      "path": ["space", "6"]
     },
     "7": {
       "value": "16rem",
@@ -830,10 +649,7 @@ var tokens = {
         "category": "space",
         "type": "7"
       },
-      "path": [
-        "space",
-        "7"
-      ]
+      "path": ["space", "7"]
     },
     "8": {
       "value": "32rem",
@@ -847,10 +663,7 @@ var tokens = {
         "category": "space",
         "type": "8"
       },
-      "path": [
-        "space",
-        "8"
-      ]
+      "path": ["space", "8"]
     }
   },
   "size": {
@@ -868,11 +681,7 @@ var tokens = {
           "type": "border",
           "item": "1"
         },
-        "path": [
-          "size",
-          "border",
-          "1"
-        ]
+        "path": ["size", "border", "1"]
       },
       "2": {
         "value": "0.125px",
@@ -887,11 +696,7 @@ var tokens = {
           "type": "border",
           "item": "2"
         },
-        "path": [
-          "size",
-          "border",
-          "2"
-        ]
+        "path": ["size", "border", "2"]
       },
       "3": {
         "value": "0.1875px",
@@ -906,12 +711,8 @@ var tokens = {
           "type": "border",
           "item": "3"
         },
-        "path": [
-          "size",
-          "border",
-          "3"
-        ]
+        "path": ["size", "border", "3"]
       }
     }
   }
-};
+}

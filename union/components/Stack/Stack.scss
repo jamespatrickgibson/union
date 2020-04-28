@@ -2,40 +2,12 @@
 
 .un-stack {
   display: block;
-
-  &.is-space-xxs {
-    > * + * {
-      margin-top: $space-xxs;
-    }
-  }
-  &.is-space-xs {
-    > * + * {
-      margin-top: $space-xs;
-    }
-  }
-  &.is-space-s {
-    > * + * {
-      margin-top: $space-s;
-    }
-  }
-  &.is-space-m {
-    > * + * {
-      margin-top: $space-m;
-    }
-  }
-  &.is-space-l {
-    > * + * {
-      margin-top: $space-l;
-    }
-  }
-  &.is-space-xl {
-    > * + * {
-      margin-top: $space-xl;
-    }
-  }
-  &.is-space-xxl {
-    > * + * {
-      margin-top: $space-xxl;
+  // Spacing
+  @each $size, $space in $spacers {
+    &.has-space-#{$size} {
+      > * + * {
+        margin-top: $space;
+      }
     }
   }
 }

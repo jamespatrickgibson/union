@@ -7,23 +7,24 @@ import "./Stack.scss";
 const Stack = ({ children, space }) => {
   let classes = classNames({
     "un-stack": true,
-    "is-space-xxs": space === "xxs",
-    "is-space-xs": space === "xs",
-    "is-space-s": space === "s",
-    "is-space-m": space === "m",
-    "is-space-l": space === "l",
-    "is-space-xl": space === "xl",
-    "is-space-xxl": space === "xxl"
+    "has-space-1": space === "1",
+    "has-space-2": space === "2",
+    "has-space-3": space === "3",
+    "has-space-4": space === "4",
+    "has-space-5": space === "5",
+    "has-space-6": space === "6",
+    "has-space-7": space === "7",
+    "has-space-8": space === "8",
   });
   return <div className={classes}>{children}</div>;
 };
 
 Stack.propTypes = {
-  space: t.oneOf(["xxs", "xs", "s", "m", "l", "xl", "xxl"])
+  space: t.oneOf(["1", "2", "3", "4", "5", "6", "7"]),
 };
 
 Stack.defaultProps = {
-  space: "m"
+  space: "3",
 };
 
 export default Stack;
