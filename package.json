@@ -1,7 +1,18 @@
 {
 	"name": "union",
 	"svelte": "src/index.js",
+	"description": "A design style boilerplate for creating scalable design architecture in any framework",
 	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jamespatrickgibson/union.git"
+	},
+	"author": "James Patrick Gibson",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/jamespatrickgibson/union/issues"
+	},
+	"homepage": "https://github.com/jamespatrickgibson/union#readme",
 	"module": "dist/index.mjs",
 	"main": "dist/index.js",
 	"scripts": {
