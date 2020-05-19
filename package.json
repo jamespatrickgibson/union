@@ -1,5 +1,5 @@
 {
-	"name": "union",
+	"name": "union-design-system",
 	"svelte": "src/index.js",
 	"description": "A design style boilerplate for creating scalable design architecture in any framework",
 	"version": "0.0.1",
@@ -57,6 +57,7 @@
 		"dist"
 	],
 	"dependencies": {
+		"np": "^6.2.3",
 		"sveltedoc-parser": "^2.3.4"
 	}
 }
