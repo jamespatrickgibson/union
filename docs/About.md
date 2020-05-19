@@ -24,17 +24,14 @@ The Svelte community is also just beginning to build good component
 libraries and UI frameworks, and could certainly use something like Union
 to jumpstart projects.
 
-> What you make represents who you are. It stands testament to you values and your preoccupations. And using the Mac I sensed a very clear, and very direct connection with the people that actually created the Macintosh.
-> — Jony Ive
-
 ### Work in Progress
 
 Since Union is such a new project, the design of the system will be
 continuously iterated in the open. Many breaking changes are certain to occor
 during the early phase of development.
 
-Union should be considered pre-release and currently unstable for production
-use.
+**Union should be considered pre-release and currently unstable for production
+use.**
 
 ## Team
 
