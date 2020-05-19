@@ -1,7 +1,6 @@
 <script>
 	import { Text } from "../src/components/index.js";
   import PageHeader from "./components/PageHeader.svelte";
-  import Example from "./components/Example.svelte";
 </script>
 
 <PageHeader title="Text" desc="A passage of text, including various components (i.e. article, blog post)" />
@@ -14,10 +13,6 @@ Bringhurst's “The Elements of Typographic Style.”
 Letter spacing is determined using Inter's Dynamic Metrics, but
 rounds the values off to a 4pt grid multiple. Line heights are also
 adjusted to align to a 4pt baseline grid.
-
-### Default
-
-<Text>Here is some text</Text>
 
 ### The Scale
 

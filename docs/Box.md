@@ -1,10 +1,11 @@
 <script>
   import { Box, Stack } from "../src/components/index.js";
+  import PageHeader from "./components/PageHeader.svelte";
 </script>
 
-<Stack>
+<PageHeader title="Box" desc="A fundemental structural component, which comes in four modes." />
 
-# Box
+<Stack>
 
 ## Modes
 

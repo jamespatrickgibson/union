@@ -46,7 +46,7 @@
 				</ListItem>
 			</List>
 		</NavigationSection>
-
+		<!--
 		<NavigationSection title="Examples">
 			<List>
 				<ListItem>
@@ -61,5 +61,6 @@
 				</ListItem>
 			</List>
 		</NavigationSection>
+		-->
 	</Navigation>
 </Box>
