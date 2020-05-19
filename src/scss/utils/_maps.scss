@@ -1,0 +1,64 @@
+/* Map Design Tokens to SCSS Variables for easier SCSS design
+   ========================================================================== */
+
+$spacers: (
+	"1": var(--space-1),
+	"2": var(--space-2),
+	"3": var(--space-3),
+	"4": var(--space-4),
+	"5": var(--space-5),
+	"6": var(--space-6),
+	"7": var(--space-7),
+	"8": var(--space-8),
+);
+
+$font-weights: (
+	"normal": var(--weight-normal),
+	"medium": var(--weight-medium),
+	"bold": var(--weight-bold),
+);
+
+$type-scale: (
+	"1": var(--type-scale-1),
+	"2": var(--type-scale-2),
+	"3": var(--type-scale-3),
+	"4": var(--type-scale-4),
+	"5": var(--type-scale-5),
+	"6": var(--type-scale-6),
+	"7": var(--type-scale-7),
+	"8": var(--type-scale-8),
+	"9": var(--type-scale-9),
+	"10": var(--type-scale-10),
+	"11": var(--type-scale-11),
+	"12": var(--type-scale-12),
+);
+
+$size-fixed-scale: (
+	"1": var(--size-fixed-1),
+	"2": var(--size-fixed-2),
+	"3": var(--size-fixed-3),
+	"4": var(--size-fixed-4),
+	"5": var(--size-fixed-5),
+	"6": var(--size-fixed-6),
+	"7": var(--size-fixed-7),
+);
+
+$radii: (
+	"1": var(--size-border-radius-1),
+	"2": var(--size-border-radius-2),
+	"3": var(--size-border-radius-3),
+	"4": var(--size-border-radius-4),
+);
+
+$shadow-1: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-2: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-3: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-4: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+	0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+$shadows: (
+	"1": $shadow-1,
+	"2": $shadow-2,
+	"3": $shadow-3,
+	"4": $shadow-4,
+);

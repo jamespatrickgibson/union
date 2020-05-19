@@ -1,7 +1,8 @@
 {
-  "endOfLine": "lf",
-  "singleQuote": false,
-  "tabWidth": 2,
-  "trailingComma": "es5",
-  "proseWrap": "never"
+	"svelteSortOrder": "scripts-styles-markup",
+	"svelteStrictMode": true,
+	"svelteBracketNewLine": true,
+	"svelteAllowShorthand": false,
+	"useTabs": true,
+	"tabWidth": 2
 }

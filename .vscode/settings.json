@@ -1,7 +1,4 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[mdx]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"svelte.plugin.typescript.enable": false
 }
