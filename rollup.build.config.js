@@ -1,6 +1,7 @@
 import autoPreprocess from "svelte-preprocess";
 import svelte from "rollup-plugin-svelte";
 import resolve from "@rollup/plugin-node-resolve";
+import copy from "rollup-plugin-copy";
 import pkg from "./package.json";
 
 const name = pkg.name
@@ -26,6 +27,9 @@ export default {
 			css: (css) => {
 				css.write("dist/bundle.css", false);
 			},
+		}),
+		copy({
+			targets: [{ src: "public/theme.css", dest: "dist" }],
 		}),
 		resolve(),
 	],
