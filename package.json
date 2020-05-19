@@ -1,5 +1,5 @@
 {
-	"name": "svelte-ds",
+	"name": "union",
 	"svelte": "src/index.js",
 	"version": "0.0.1",
 	"module": "dist/index.mjs",
