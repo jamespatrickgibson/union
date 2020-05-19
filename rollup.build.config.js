@@ -25,7 +25,7 @@ export default {
 			// we'll extract any component CSS out into
 			// a separate file - better for performance
 			css: (css) => {
-				css.write("dist/bundle.css", false);
+				css.write("dist/union.css", false);
 			},
 		}),
 		copy({
