@@ -1,6 +1,6 @@
 # union.
 
-A design style boilerplate for creating scalable design architecture in any framework.
+A design style boilerplate for creating scalable design architecture in Svelte, or any other framework.
 
 ## Authors
 
