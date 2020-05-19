@@ -2,7 +2,7 @@
 	"name": "union-design-system",
 	"svelte": "src/index.js",
 	"description": "A design style boilerplate for creating scalable design architecture in any framework",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/jamespatrickgibson/union.git"
