@@ -1,0 +1,79 @@
+.example-mode {
+	--color-button-standard-secondary-bg: rgba(91, 116, 140, 0.8);
+	--color-button-standard-secondary-bg-hover: rgba(108, 137, 166, 0.8);
+	--color-button-standard-secondary-bg-active: rgba(73, 94, 115, 0.8);
+	--color-button-standard-subtle-label: rgba(238, 247, 255, 0.9);
+	--color-button-standard-subtle-bg: rgba(85, 105, 125, 0.35);
+	--color-button-standard-subtle-bg-hover: rgba(85, 105, 125, 0.5);
+	--color-button-standard-subtle-bg-active: rgba(85, 105, 125, 0.2);
+	--color-button-minimal-secondary-label: rgba(230, 242, 255, 0.9);
+	--color-button-minimal-secondary-label-hover: #e6f2ff;
+	--color-button-minimal-secondary-label-active: rgba(230, 242, 255, 0.65);
+	--color-button-minimal-subtle-label: rgba(230, 242, 255, 0.5);
+	--color-button-minimal-subtle-label-hover: rgba(238, 247, 255, 0.65);
+	--color-button-minimal-subtle-label-active: rgba(230, 242, 255, 0.4);
+	--color-button-minimal-cancel-label: rgba(230, 242, 255, 0.5);
+	--color-button-minimal-cancel-label-hover: rgba(238, 247, 255, 0.65);
+	--color-button-minimal-cancel-label-active: rgba(230, 242, 255, 0.4);
+
+	--color-content-contrast: #e6f2ff;
+	--color-content-default: rgba(230, 242, 255, 0.8);
+	--color-content-subtle: rgba(230, 242, 255, 0.65);
+	--color-content-nonessential: rgba(230, 242, 255, 0.4);
+
+	--color-divider: rgba(122, 138, 153, 0.6);
+
+	--color-forms-fill: #101417;
+	--color-forms-stroke: rgba(122, 138, 153, 0.6);
+	--color-forms-checked-indicator: #fff;
+
+	--color-keyboard-shortcut-border: hsla(210, 9%, 68%, 0.6);
+	--color-link-article-text: #4db9eb;
+	--color-link-article-text-active: #0073a8;
+	--color-link-article-text-hover: #75d3ff;
+	--color-link-article-text-visited: #4db9eb;
+	--color-link-article-underline: rgba(77, 185, 235, 0.4);
+	--color-link-article-underline-active: #0073a8;
+	--color-link-article-underline-hover: #75d3ff;
+	--color-link-article-underline-visited: rgba(184, 166, 185, 0.4);
+	--color-link-default-text-active: #0073a8;
+	--color-link-default-text-hover: #75d3e3;
+	--color-link-default-underline: rgba(238, 247, 255, 0.4);
+	--color-link-default-underline-active: #0073a8;
+	--color-link-default-underline-hover: #75d3e3;
+	--color-link-default-underline-visited: rgba(238, 247, 255, 0.4);
+	--color-link-implied-underline-active: rgba(238, 247, 255, 0.85);
+	--color-link-implied-underline-hover: rgba(238, 247, 255, 0.4);
+
+	--color-selection-outline: #009ce3;
+	--color-selection-outline-hover: rgba(0, 156, 227, 0.5);
+	--color-selection-bg: #003852;
+	--color-selection-bg-hover: #002c40;
+	--color-selection-edge: #009ce3;
+	--color-selection-edge-hover: #006796;
+	--color-selectmark-unselected: rgba(230, 242, 255, 0.65);
+	--color-selectmark-unselected-hover: #009ce3;
+	--color-selectmark-selected: #009ce3;
+	--color-selectmark-selected-hover: rgba(230, 242, 255, 0.65);
+
+	--color-bg-level0: #101417;
+	--color-bg-level0-accent: #232a31;
+	--color-bg-level1: #191f24;
+	--color-bg-level1-accent: #2c343e;
+	--color-bg-level2: #232a31;
+	--color-bg-level2-accent: #313b45;
+	--color-bg-level3: #353f4a;
+	--color-bg-level3-accent: #45525e;
+
+	--color-tooltip-bg: #edf0f2;
+	--color-tooltip-text: rgba(19, 41, 63, 0.8);
+	--color-utility-action-text: #4db9eb;
+	--color-utility-information-bg: #1b2e42;
+	--color-utility-information-text: #7d98b3;
+	--color-utility-confirmation-bg: #324200;
+	--color-utility-confirmation-text: #a9c94d;
+	--color-utility-warning-bg: #594300;
+	--color-utility-warning-text: #edc54d;
+	--color-utility-critical-bg: #570900;
+	--color-utility-critical-text: #ff4b33;
+}

@@ -1,0 +1,4 @@
+{
+	"editor.formatOnSave": true,
+	"svelte.plugin.typescript.enable": false
+}

@@ -1,0 +1,57 @@
+// Theme Mixins
+@mixin mode($mode) {
+	--color-text-default: var(--color-text-default-on-#{$mode});
+	--color-text-muted: var(--color-text-muted-on-#{$mode});
+	--color-text-disabled: var(--color-text-disabled-on-#{$mode});
+	--color-text-interactive: var(--color-text-interactive-on-#{$mode});
+	--color-text-error: var(--color-text-error-on-#{$mode});
+
+	color: var(--color-text-default);
+
+	@if $mode == white {
+		background: var(--color-bg-white);
+	} @else if $mode == light {
+		background: var(--color-bg-light);
+	} @else if $mode == dark {
+		background: var(--color-bg-dark);
+	} @else if $mode == black {
+		background: var(--color-bg-black);
+	} @else {
+		@error "Unknown mode #{$mode}.";
+	}
+}
+
+// Media Queries
+$size-breakpoint-desktop: 48.0625rem;
+
+@mixin desktop {
+	@media screen and (min-width: $size-breakpoint-desktop) {
+		@content;
+	}
+}
+
+// Typography
+@mixin text-preset($size) {
+	@if $size < 13 {
+		font-size: var(--type-scale-#{$size});
+		line-height: var(--line-height-#{$size});
+		letter-spacing: var(--tracking-#{$size});
+	} @else {
+		@error "text-preset sizes can only be 1–12";
+	}
+}
+
+// Resets
+@mixin form-field-reset() {
+	appearance: none;
+	vertical-align: middle;
+	color: inherit;
+	font: inherit;
+	border: 0;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border-radius: 0;
+	text-align: inherit;
+}

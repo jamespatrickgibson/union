@@ -1,0 +1,165 @@
+:root {
+	--family-primary: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		"Helvetica", "Arial", sans-serif;
+
+	/* Font Weights */
+	--weight-normal: 400;
+	--weight-medium: 500;
+	--weight-bold: 700;
+
+	/* Typographic Scale */
+	--type-scale-1: 0.625rem; /* 10pt */
+	--type-scale-2: 0.75rem; /* 12pt */
+	--type-scale-3: 0.875rem; /* 14pt */
+	--type-scale-4: 1rem; /* 16pt */
+	--type-scale-5: 1.125rem; /* 18pt */
+	--type-scale-6: 1.3125rem; /* 21pt */
+	--type-scale-7: 1.5rem; /* 24pt */
+	--type-scale-8: 1.875rem; /* 30pt */
+	--type-scale-9: 2.25rem; /* 36pt */
+	--type-scale-10: 3rem; /* 48pt */
+	--type-scale-11: 3.75rem; /* 60pt */
+	--type-scale-12: 4.5rem; /* 72pt */
+
+	/* Baseline Scale */
+	--line-height-1: 0.75rem;
+	--line-height-2: 1rem;
+	--line-height-3: 1.25rem;
+	--line-height-4: 1.5rem;
+	--line-height-5: 1.5rem;
+	--line-height-6: 1.75rem;
+	--line-height-7: 2rem;
+	--line-height-8: 2.25rem;
+	--line-height-9: 2.75rem;
+	--line-height-10: 3.5rem;
+	--line-height-11: 4.25rem;
+	--line-height-12: 5rem;
+
+	/* Letter Spacing (tracking) */
+	--tracking-1: 0; /* 10pt */
+	--tracking-2: 0; /* 12pt */
+	--tracking-3: -0.006em; /* 14pt */
+	--tracking-4: -0.011em; /* 16pt */
+	--tracking-5: -0.014em; /* 18pt */
+	--tracking-6: -0.018em; /* 21pt */
+	--tracking-7: -0.019em; /* 24pt */
+	--tracking-8: -0.021em; /* 30pt */
+	--tracking-9: -0.022em; /* 36pt */
+	--tracking-10: -0.022em; /* 48pt */
+	--tracking-11: -0.022em; /* 60pt */
+	--tracking-12: -0.022em; /* 72pt */
+
+	/* Typographic Measure */
+	--measure: 60ch;
+
+	--space-1: 0.25rem; /* 4pt */
+	--space-2: 0.5rem; /* 8pt */
+	--space-3: 1rem; /* 16pt */
+	--space-4: 2rem; /* 32pt */
+	--space-5: 4rem; /* 64pt */
+	--space-6: 8rem; /* 128pt */
+	--space-7: 16rem; /* 256pt */
+	--space-8: 32rem; /* 512pt */
+
+	/* Borders */
+	--size-border-1: 0.0625rem; /* 1pt */
+	--size-border-2: 0.125rem; /* 2pt */
+	--size-border-3: 0.1875rem; /* 3pt */
+
+	--size-border-radius-1: 0.125rem; /* 2pt */
+	--size-border-radius-2: 0.25rem; /* 4pt */
+	--size-border-radius-3: 0.375rem; /* 6pt */
+	--size-border-radius-4: 0.5rem; /* 8pt */
+
+	/* Sizes */
+	--size-fixed-1: 1rem; /* 16pt */
+	--size-fixed-2: 1.5rem; /* 24pt */
+	--size-fixed-3: 2rem; /* 32pt */
+	--size-fixed-4: 3rem; /* 48pt */
+	--size-fixed-5: 4rem; /* 64pt */
+	--size-fixed-6: 6rem; /* 96pt */
+	--size-fixed-7: 8rem; /* 128pt */
+
+	/* Neutral Colors */
+	/* http://contrast-grid.eightshapes.com/?background-colors=%23FFFFFF%2C%20WHITE%0D%0A%23F8F9FA%2C%20050%20LIGHT%20(maybe)%0D%0A%23F1F3F5%2C%20100%20LIGHT%20(maybe)%0D%0A%23495057%2C%20700%20DARK%0D%0A%23212529%2C%20900%20BLACK%0D%0A%0D%0A%0D%0A&foreground-colors=%23FFFFFF%2C%20WHITE%0D%0A%23F8F9FA%2C%20050%0D%0A%23F1F3F5%2C%20100%0D%0A%23E9ECEF%2C%20200%0D%0A%23DEE2E6%2C%20300%0D%0A%23CED4DA%2C%20400%0D%0A%23ADB5BD%2C%20500%0D%0A%23868E96%2C%20600%0D%0A%23495057%2C%20700%20%0D%0A%23343A40%2C%20800%0D%0A%23212529%2C%20900%0D%0A%23000000%2C%20Black%0D%0A%230100FF%2C%20Interactive%0D%0A&es-color-form__tile-size=compact */
+	--color-white: hsl(0, 0%, 100%);
+	--color-black: hsl(0, 0%, 0%);
+
+	/* Open Color */
+	--color-neutral-050: hsl(214.3, 14.9%, 97.7%);
+	--color-neutral-100: hsl(210, 17%, 95.3%);
+	--color-neutral-200: hsl(211.3, 15.4%, 92.6%);
+	--color-neutral-300: hsl(211, 13.7%, 88.6%);
+	--color-neutral-400: hsl(210.6, 13.9%, 83.2%);
+	--color-neutral-500: hsl(209.5, 10.8%, 71%);
+	--color-neutral-600: hsl(209.5, 7.1%, 55.7%);
+	--color-neutral-700: hsl(209.5, 8.8%, 31.4%);
+	--color-neutral-800: hsl(210.6, 10.3%, 22.8%);
+	--color-neutral-900: hsl(210, 11%, 14.5%);
+
+	/* Tailwind */
+	/* --color-neutral-100: #f7fafc;
+	--color-neutral-200: #edf2f7;
+	--color-neutral-300: #e2e8f0;
+	--color-neutral-400: #cbd5e0;
+	--color-neutral-500: #a0aec0;
+	--color-neutral-600: #718096;
+	--color-neutral-700: #4a5568;
+	--color-neutral-800: #2d3748;
+	--color-neutral-900: #1a202c; */
+
+	/* Primary Colors */
+	--color-primary-050: hsl(240, 100%, 95%);
+	--color-primary-100: hsl(240, 100%, 90%);
+	--color-primary-200: hsl(240, 100%, 80%);
+	--color-primary-300: hsl(240, 100%, 70%);
+	--color-primary-400: hsl(240, 100%, 60%);
+	--color-primary-500: hsl(240, 100%, 50%);
+	--color-primary-600: hsl(240, 100%, 40%);
+	--color-primary-700: hsl(240, 100%, 30%);
+	--color-primary-800: hsl(240, 100%, 20%);
+	--color-primary-900: hsl(240, 100%, 10%);
+
+	/* Default Text Colors */
+	--color-text-default: var(--color-black);
+	--color-text-muted: var(--color-neutral-600);
+	--color-text-disabled: var(--color-neutral-500);
+	--color-text-interactive: var(--color-primary-500);
+	--color-text-error: var(--color-primary-500);
+
+	/* Mode: White */
+	--color-bg-white: var(--color-white);
+	--color-text-default-on-white: var(--color-black);
+	--color-text-muted-on-white: var(--color-neutral-700);
+	--color-text-disabled-on-white: var(--color-neutral-600);
+	--color-text-interactive-on-white: var(--color-primary-500);
+	--color-text-error-on-white: var(--color-primary-500);
+
+	/* Mode: Light */
+	--color-bg-light: var(--color-neutral-050);
+	--color-text-default-on-light: var(--color-black);
+	--color-text-muted-on-light: var(--color-neutral-700);
+	--color-text-disabled-on-light: var(--color-neutral-600);
+	--color-text-interactive-on-light: var(--color-primary-500);
+	--color-text-error-on-light: var(--color-primary-500);
+
+	/* Mode: Dark */
+	--color-bg-dark: var(--color-neutral-900);
+	--color-text-default-on-dark: var(--color-white);
+	--color-text-muted-on-dark: var(--color-neutral-400);
+	--color-text-disabled-on-dark: var(--color-neutral-500);
+	--color-text-interactive-on-dark: var(--color-primary-500);
+	--color-text-error-on-dark: var(--color-primary-500);
+
+	/* Mode: Black */
+	--color-bg-black: var(--color-black);
+	--color-text-default-on-black: var(--color-neutral-050);
+	--color-text-muted-on-black: var(--color-neutral-500);
+	--color-text-disabled-on-black: var(--color-neutral-600);
+	--color-text-interactive-on-black: var(--color-primary-500);
+	--color-text-error-on-black: var(--color-primary-500);
+
+	/* Border Colors */
+	--color-border: var(--color-neutral-200);
+}
