@@ -1,12 +1,26 @@
 <script>
 	import Prism from "svelte-prism";
-	import { Box, Stack, Text } from "../src/components/index.js";
+	import {
+		Box,
+		Button,
+		Divider,
+		Stack,
+		Text,
+	} from "../src/components/index.js";
 	import PageHeader from "./components/PageHeader.svelte";
 
 	let selectedSpace = "4";
 	let selectedRadius = "0";
 	let selectedShadow = "0";
+	let modes = ["white", "light", "dark", "black"];
 	let selectedMode = "light";
+
+	function resetControls() {
+		selectedSpace = "4";
+		selectedRadius = "0";
+		selectedShadow = "0";
+		selectedMode = "light";
+	}
 </script>
 
 <style lang="scss">
@@ -21,10 +35,17 @@
 		&__example {
 			overflow: hidden;
 			padding: var(--space-4);
+			border-left: 1px solid var(--color-black);
 		}
 
 		&__controls {
-			border-left: 1px solid var(--color-neutral-800);
+			border-left: 1px solid var(--color-black);
+		}
+
+		&__range {
+			label {
+				display: block;
+			}
 		}
 
 		&__code {
@@ -50,9 +71,26 @@
 				title="Box"
 				desc="A fundemental structural component, which comes in four modes."
 			/>
-			<Box mode="white">
+
+			<!-- Controls -->
+			<Box>
 				<Text weight="bold">Controls</Text>
 				<div>
+					<fieldset>
+						<legend>Mode</legend>
+						{#each modes as mode}
+							<label>
+								<input
+									type="radio"
+									bind:group="{selectedMode}"
+									value="{mode}"
+								/>
+								{mode}
+							</label>
+						{/each}
+					</fieldset>
+				</div>
+				<div class="playground__range">
 					<label for="spacePicker">Space</label>
 					<input
 						name="spacePicker"
@@ -63,7 +101,7 @@
 					/>
 					<Text>{selectedSpace}</Text>
 				</div>
-				<div>
+				<div class="playground__range">
 					<label for="radiusPicker">Radius</label>
 					<input
 						name="radiusPicker"
@@ -73,7 +111,7 @@
 						bind:value="{selectedRadius}"
 					/>
 				</div>
-				<div>
+				<div class="playground__range">
 					<label for="shadowPicker">Shadow</label>
 					<input
 						name="shadowPicker"
@@ -83,17 +121,24 @@
 						bind:value="{selectedShadow}"
 					/>
 				</div>
+				<Button on:click="{resetControls}">Reset</Button>
 			</Box>
 
-			<Box mode="white">
+			<Divider />
+
+			<!-- Import Instructions-->
+			<Box>
 				<Text weight="bold">Use</Text>
 				<Text>{`import { Box } from "union-design-system"`}</Text>
 			</Box>
 
+			<Divider />
+
 			<div class="playground__code">
-				<Text weight="bold">Code</Text>
-				<Prism language="html">
-					{`
+				<Box>
+					<Text weight="bold">Code</Text>
+					<Prism language="html">
+						{`
 <Box
 	space="${selectedSpace}"
 	radius="${selectedRadius}"
@@ -101,7 +146,8 @@
 	Box
 </Box>
 `}
-				</Prism>
+					</Prism>
+				</Box>
 			</div>
 		</Stack>
 	</div>

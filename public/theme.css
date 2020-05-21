@@ -121,15 +121,17 @@
 	--color-primary-800: hsl(240, 100%, 20%);
 	--color-primary-900: hsl(240, 100%, 10%);
 
-	/* Default Text Colors */
+	/* Default Colors */
 	--color-text-default: var(--color-black);
 	--color-text-muted: var(--color-neutral-600);
 	--color-text-disabled: var(--color-neutral-500);
 	--color-text-interactive: var(--color-primary-500);
 	--color-text-error: var(--color-primary-500);
+	--color-bg-accent: var(--color-neutral-300);
 
 	/* Mode: White */
 	--color-bg-white: var(--color-white);
+	--color-bg-accent-white: var(--color-neutral-300);
 	--color-text-default-on-white: var(--color-black);
 	--color-text-muted-on-white: var(--color-neutral-700);
 	--color-text-disabled-on-white: var(--color-neutral-600);
@@ -138,6 +140,7 @@
 
 	/* Mode: Light */
 	--color-bg-light: var(--color-neutral-050);
+	--color-bg-accent-light: var(--color-neutral-400);
 	--color-text-default-on-light: var(--color-black);
 	--color-text-muted-on-light: var(--color-neutral-700);
 	--color-text-disabled-on-light: var(--color-neutral-600);
@@ -146,6 +149,7 @@
 
 	/* Mode: Dark */
 	--color-bg-dark: var(--color-neutral-900);
+	--color-bg-accent-dark: var(--color-black);
 	--color-text-default-on-dark: var(--color-white);
 	--color-text-muted-on-dark: var(--color-neutral-400);
 	--color-text-disabled-on-dark: var(--color-neutral-500);
@@ -154,6 +158,7 @@
 
 	/* Mode: Black */
 	--color-bg-black: var(--color-black);
+	--color-bg-accent-black: var(--color-neutral-700);
 	--color-text-default-on-black: var(--color-neutral-050);
 	--color-text-muted-on-black: var(--color-neutral-500);
 	--color-text-disabled-on-black: var(--color-neutral-600);

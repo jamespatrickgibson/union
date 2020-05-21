@@ -5,6 +5,7 @@
 	--color-text-disabled: var(--color-text-disabled-on-#{$mode});
 	--color-text-interactive: var(--color-text-interactive-on-#{$mode});
 	--color-text-error: var(--color-text-error-on-#{$mode});
+	--color-bg-accent: var(--color-bg-accent-#{$mode});
 
 	color: var(--color-text-default);
 

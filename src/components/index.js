@@ -1,6 +1,6 @@
-export { default as UnionStyle } from "./UnionStyle.svelte";
 export { default as Box } from "./Box.svelte";
 export { default as Button } from "./Button.svelte";
+export { default as Divider } from "./Divider.svelte";
 export { default as FixedImage } from "./FixedImage.svelte";
 export { default as Frame } from "./Frame.svelte";
 export { default as Inline } from "./Inline.svelte";
@@ -14,3 +14,4 @@ export { default as Text } from "./Text.svelte";
 export { default as TextContainer } from "./TextContainer.svelte";
 export { default as Stack } from "./Stack.svelte";
 export { default as SplitView } from "./SplitView.svelte";
+export { default as UnionStyle } from "./UnionStyle.svelte";
