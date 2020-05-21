@@ -3,7 +3,11 @@
 	import {
 		Box,
 		Button,
+		Control,
 		Divider,
+		Field,
+		Label,
+		SegmentedControl,
 		Stack,
 		Text,
 	} from "../src/components/index.js";
@@ -42,15 +46,58 @@
 			border-left: 1px solid var(--color-black);
 		}
 
-		&__range {
-			label {
-				display: block;
-			}
-		}
-
 		&__code {
 			tab-size: 2;
 		}
+	}
+
+	// Range Slider Styling
+	input[type="range"] {
+		appearance: none;
+		background: transparent;
+		height: grid-8pt(4);
+		width: 100%;
+	}
+
+	@mixin range-thumb {
+		appearance: none;
+		width: baseline(4);
+		height: baseline(5);
+		border-radius: var(--size-border-radius-1);
+		// border-radius: 100%;
+		border: baseline(1) solid var(--color-bg-default);
+		background-color: var(--color-text-default);
+		margin-top: -(baseline(2));
+	}
+	@mixin range-track {
+		width: 100%;
+		cursor: pointer;
+		background: var(--color-bg-accent);
+		border-color: transparent;
+		color: transparent;
+		height: baseline(1);
+	}
+
+	// Thumb
+	input[type="range"]::-webkit-slider-thumb {
+		@include range-thumb;
+	}
+	input[type="range"]::moz-range-thumb {
+		@include range-thumb;
+	}
+	input[type="range"]::ms-thumb {
+		@include range-thumb;
+	}
+
+	// Track
+	input[type="range"]::-webkit-slider-runnable-track {
+		@include range-track();
+	}
+	input[type="range"]::-moz-range-track {
+		@include range-track();
+	}
+	input[type="range"]::-ms-track {
+		@include range-track();
 	}
 </style>
 
@@ -75,6 +122,60 @@
 			<!-- Controls -->
 			<Box>
 				<Text weight="bold">Controls</Text>
+
+				<!-- New Form Control Components -->
+				<Stack>
+					<!-- Space -->
+					<Field>
+						<Control label="Space">
+							<input
+								type="range"
+								min="0"
+								max="8"
+								bind:value="{selectedSpace}"
+							/>
+						</Control>
+					</Field>
+
+					<!-- Radius -->
+					<Field>
+						<Control label="Radius">
+							<input
+								type="range"
+								min="0"
+								max="4"
+								bind:value="{selectedRadius}"
+							/>
+						</Control>
+					</Field>
+
+					<!-- Shadow -->
+					<Field>
+						<Control label="Shadow">
+							<input
+								type="range"
+								min="0"
+								max="4"
+								bind:value="{selectedShadow}"
+							/>
+						</Control>
+					</Field>
+
+					<!-- Mode -->
+					<SegmentedControl />
+					<Field>
+						{#each modes as mode}
+							<Control label="{mode}">
+								<input
+									type="radio"
+									bind:group="{selectedMode}"
+									value="{mode}"
+								/>
+							</Control>
+						{/each}
+					</Field>
+				</Stack>
+
 				<div>
 					<fieldset>
 						<legend>Mode</legend>
@@ -90,37 +191,7 @@
 						{/each}
 					</fieldset>
 				</div>
-				<div class="playground__range">
-					<label for="spacePicker">Space</label>
-					<input
-						name="spacePicker"
-						type="range"
-						min="0"
-						max="8"
-						bind:value="{selectedSpace}"
-					/>
-					<Text>{selectedSpace}</Text>
-				</div>
-				<div class="playground__range">
-					<label for="radiusPicker">Radius</label>
-					<input
-						name="radiusPicker"
-						type="range"
-						min="0"
-						max="4"
-						bind:value="{selectedRadius}"
-					/>
-				</div>
-				<div class="playground__range">
-					<label for="shadowPicker">Shadow</label>
-					<input
-						name="shadowPicker"
-						type="range"
-						min="0"
-						max="4"
-						bind:value="{selectedShadow}"
-					/>
-				</div>
+
 				<Button on:click="{resetControls}">Reset</Button>
 			</Box>
 
