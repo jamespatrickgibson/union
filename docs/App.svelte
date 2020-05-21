@@ -5,7 +5,7 @@
 
 	// Doc Pages
 	import About from "./About.md";
-	import Box from "./Box.md";
+	import Box from "./Box.svelte";
 	import Contribute from "./Contribute.md";
 	import Home from "./Home.md";
 	import GettingStarted from "./GettingStarted.md";

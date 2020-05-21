@@ -38,7 +38,7 @@
 			max-width: 65ch;
 		}
 		:global(p:not(.un-text)) {
-			@include text-preset(3);
+			@include text-preset(4);
 			margin-top: baseline(4);
 			max-width: 65ch;
 		}

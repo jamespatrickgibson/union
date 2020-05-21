@@ -8,7 +8,10 @@
 		display: grid;
 		grid-template-columns: 15rem 1fr;
 		min-height: 100vh;
-		background-color: var(--color-bg-level-0);
+
+		&__main {
+			background: var(--color-neutral-900);
+		}
 	}
 </style>
 
@@ -16,11 +19,9 @@
 	<Box mode="dark" space="0">
 		<slot name="nav" />
 	</Box>
-	<Box mode="light" space="4">
-		<Box mode="white" space="4">
-			<Markdown>
-				<slot name="main" />
-			</Markdown>
-		</Box>
-	</Box>
+	<div class="layout-docs__main">
+		<Markdown>
+			<slot name="main" />
+		</Markdown>
+	</div>
 </div>
