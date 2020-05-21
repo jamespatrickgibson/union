@@ -4,12 +4,15 @@
 </script>
 
 <style lang="scss">
+	@use "../src/scss/utils/all" as *;
+
 	.layout-docs {
 		display: grid;
 		grid-template-columns: 15rem 1fr;
 		min-height: 100vh;
 
 		&__main {
+			@include mode(dark);
 			background: var(--color-neutral-900);
 		}
 	}

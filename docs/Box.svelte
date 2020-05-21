@@ -1,4 +1,5 @@
 <script>
+	import Prism from "svelte-prism";
 	import { Box, Stack, Text } from "../src/components/index.js";
 	import PageHeader from "./components/PageHeader.svelte";
 
@@ -10,6 +11,7 @@
 
 <style lang="scss">
 	@use "../src/scss/utils/all" as *;
+
 	.playground {
 		display: grid;
 		grid-template-columns: 1fr 20rem;
@@ -18,12 +20,15 @@
 
 		&__example {
 			overflow: hidden;
-			// @include mode(white);
 			padding: var(--space-4);
 		}
 
 		&__controls {
 			border-left: 1px solid var(--color-neutral-800);
+		}
+
+		&__code {
+			tab-size: 2;
 		}
 	}
 </style>
@@ -85,13 +90,18 @@
 				<Text>{`import { Box } from "union-design-system"`}</Text>
 			</Box>
 
-			<div class="code">
-				<Box mode="white">
-					<Text weight="bold">Code</Text>
-					<code>
-						{`<Box space="${selectedSpace}" radius="${selectedRadius}" shadow="${selectedShadow}">Box</Box>`}
-					</code>
-				</Box>
+			<div class="playground__code">
+				<Text weight="bold">Code</Text>
+				<Prism language="html">
+					{`
+<Box
+	space="${selectedSpace}"
+	radius="${selectedRadius}"
+	shadow="${selectedShadow}">
+	Box
+</Box>
+`}
+				</Prism>
 			</div>
 		</Stack>
 	</div>
