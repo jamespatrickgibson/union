@@ -25,6 +25,7 @@ adjusted to align to a 4pt baseline grid.
 <Text size="7">Text 7</Text>
 <Text size="8">Text 8</Text>
 <Text size="9">Text 9</Text>
-<Text size="10">Text 11</Text>
-<Text size="11">Text 12</Text>
-<Text size="12">Text 13</Text>
+<Text size="10">Text 10</Text>
+<Text size="11">Text 11</Text>
+<Text size="12">Text 12</Text>
+<Text size="13">Text 13</Text>
