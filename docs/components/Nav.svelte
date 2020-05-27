@@ -29,6 +29,11 @@
 						<Link to="/contribute" type="implied">Contribute</Link>
 					</Text>
 				</ListItem>
+				<ListItem>
+					<Text>
+						<Link to="/acknowledgements" type="implied">Acknowledgements</Link>
+					</Text>
+				</ListItem>
 			</List>
 		</NavigationSection>
 

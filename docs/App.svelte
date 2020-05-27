@@ -10,6 +10,7 @@
 	import Home from "./Home.md";
 	import GettingStarted from "./GettingStarted.md";
 	import TextDocs from "./Text.md";
+	import Acknowledgements from "./Acknowledgements.md";
 
 	// Doc Components
 	import Header from "./components/Header.svelte";
@@ -34,6 +35,9 @@
 		</Route>
 		<Route path="/about">
 			<About />
+		</Route>
+		<Route path="/acknowledgements">
+			<Acknowledgements />
 		</Route>
 		<Route path="/getting-started">
 			<GettingStarted />
