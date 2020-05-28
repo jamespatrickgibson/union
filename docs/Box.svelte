@@ -32,7 +32,7 @@
 
 	.playground {
 		display: grid;
-		grid-template-columns: 1fr 20rem;
+		grid-template-columns: 1fr 15rem;
 		grid-gap: var(--space-2);
 		height: 100vh;
 
