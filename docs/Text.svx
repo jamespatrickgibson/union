@@ -43,3 +43,12 @@ adjusted to align to a 4pt baseline grid.
 <Text size="11">Text 11</Text>
 <Text size="12">Text 12</Text>
 ```
+
+## Weights
+
+<Text weight="normal">Normal</Text>
+<Text weight="bold">Bold</Text>
+
+```html
+<Text weight="normal">Normal</Text> <Text weight="bold">Bold</Text>
+```
