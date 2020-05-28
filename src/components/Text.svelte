@@ -19,7 +19,7 @@
 		"is-size-10": size === "10",
 		"is-size-11": size === "11",
 		"is-size-12": size === "12",
-		"is-size-12": size === "12",
+		"is-size-13": size === "13",
 		"is-weight-normal": weight === "normal",
 		"is-weight-medium": weight === "medium",
 		"is-weight-bold": weight === "bold",
