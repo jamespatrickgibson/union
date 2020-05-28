@@ -160,20 +160,6 @@
 							/>
 						</Control>
 					</Field>
-
-					<!-- Mode -->
-					<SegmentedControl />
-					<Field>
-						{#each modes as mode}
-							<Control label="{mode}">
-								<input
-									type="radio"
-									bind:group="{selectedMode}"
-									value="{mode}"
-								/>
-							</Control>
-						{/each}
-					</Field>
 				</Stack>
 
 				<div>
