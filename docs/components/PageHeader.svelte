@@ -6,7 +6,7 @@
 </script>
 
 <header>
-	<Box mode="black" space="4">
+	<Box space="0">
 		<Text tag="h1" size="9" weight="bold">{title}</Text>
 		<Text size="6" color="muted">{desc}</Text>
 	</Box>

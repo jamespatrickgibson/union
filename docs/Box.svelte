@@ -39,11 +39,6 @@
 		&__example {
 			overflow: hidden;
 			padding: var(--space-4);
-			border-left: 1px solid var(--color-black);
-		}
-
-		&__controls {
-			border-left: 1px solid var(--color-black);
 		}
 
 		&__code {
@@ -61,10 +56,9 @@
 
 	@mixin range-thumb {
 		appearance: none;
-		width: baseline(4);
+		width: baseline(5);
 		height: baseline(5);
-		border-radius: var(--size-border-radius-1);
-		// border-radius: 100%;
+		border-radius: 100%;
 		border: baseline(1) solid var(--color-bg-default);
 		background-color: var(--color-text-default);
 		margin-top: -(baseline(2));
@@ -162,7 +156,7 @@
 					</Field>
 				</Stack>
 
-				<div>
+				<!-- <div>
 					<fieldset>
 						<legend>Mode</legend>
 						{#each modes as mode}
@@ -176,7 +170,7 @@
 							</label>
 						{/each}
 					</fieldset>
-				</div>
+				</div> -->
 
 				<Button on:click="{resetControls}">Reset</Button>
 			</Box>
@@ -195,8 +189,7 @@
 				<Box>
 					<Text weight="bold">Code</Text>
 					<Prism language="html">
-						{`
-<Box
+						{`<Box
 	space="${selectedSpace}"
 	radius="${selectedRadius}"
 	shadow="${selectedShadow}">
