@@ -5,10 +5,8 @@ import commonjs from "@rollup/plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import json from "@rollup/plugin-json";
+import { mdsvex } from "mdsvex";
 const production = !process.env.ROLLUP_WATCH;
-
-// Svelte Preprocess Markdown Options
-const { markdown } = require("svelte-preprocess-markdown");
 
 export default {
 	input: "docs/main.js",
@@ -21,11 +19,10 @@ export default {
 	plugins: [
 		svelte({
 			// add '.md', to the extensions
-			extensions: [".svelte", ".md"],
+			extensions: [".svelte", ".svx"],
 
-			// add markdown preprocessor
 			preprocess: [
-				markdown(),
+				mdsvex(),
 				autoPreprocess({
 					postcss: true,
 					scss: { includePaths: ["src"] },

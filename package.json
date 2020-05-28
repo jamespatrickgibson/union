@@ -28,6 +28,7 @@
 		"@rollup/plugin-node-resolve": "^6.0.0",
 		"autoprefixer": "^9.7.6",
 		"clsx": "^1.1.0",
+		"mdsvex": "^0.8.0",
 		"postcss": "^7.0.27",
 		"postcss-load-config": "^2.1.0",
 		"prettier": "^2.0.5",
@@ -44,7 +45,6 @@
 		"svelte-css-vars": "0.0.1",
 		"svelte-loader": "^2.13.6",
 		"svelte-preprocess": "^3.7.4",
-		"svelte-preprocess-markdown": "^2.7.1",
 		"tinro": "^0.2.4"
 	},
 	"browserslist": [
