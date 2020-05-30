@@ -8,7 +8,7 @@ The getting started page should provide information for how to get up and runnin
 
 ### Install via NPM
 
-`npm install union-design-system`
+`npm install union-design-system --save`
 
 ### Add Theme and Core CSS
 
