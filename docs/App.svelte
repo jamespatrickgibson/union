@@ -10,6 +10,7 @@
 	import Home from "./Home.svx";
 	import GettingStarted from "./GettingStarted.svx";
 	import TextDocs from "./Text.svx";
+	import LinkDocs from "./Link.svelte";
 
 	// Doc Components
 	import Header from "./components/Header.svelte";
@@ -50,6 +51,9 @@
 		</Route>
 		<Route path="/components/text">
 			<TextDocs />
+		</Route>
+		<Route path="/components/link">
+			<LinkDocs />
 		</Route>
 		<Route path="/examples/apple-music">
 			<AppleMusic />
