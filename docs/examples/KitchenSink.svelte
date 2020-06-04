@@ -2,6 +2,7 @@
 	import {
 		Box,
 		Button,
+		Divider,
 		FixedImage,
 		Inline,
 		List,
@@ -35,6 +36,7 @@
 		"10",
 		"11",
 		"12",
+		"13",
 	];
 </script>
 
@@ -73,6 +75,7 @@
 					<Box mode="{mode}">
 						<Text size="4" weight="bold">Mode {mode}</Text>
 						<Text color="default">Default text in this Box.</Text>
+						<Divider width="2" />
 						<Text color="muted">Muted text in this Box.</Text>
 						<Text color="disabled">Disabled text in this Box.</Text>
 						<Inline>

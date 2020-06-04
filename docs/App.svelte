@@ -4,12 +4,13 @@
 	import pkg from "../package.json";
 
 	// Doc Pages
-	import About from "./About.md";
-	import Box from "./Box.md";
-	import Contribute from "./Contribute.md";
-	import Home from "./Home.md";
-	import GettingStarted from "./GettingStarted.md";
-	import TextDocs from "./Text.md";
+	import About from "./About.svx";
+	import Box from "./Box.svelte";
+	import Contribute from "./Contribute.svx";
+	import Home from "./Home.svx";
+	import GettingStarted from "./GettingStarted.svx";
+	import TextDocs from "./Text.svx";
+	import LinkDocs from "./Link.svelte";
 
 	// Doc Components
 	import Header from "./components/Header.svelte";
@@ -20,6 +21,10 @@
 	import AppleMusic from "./examples/AppleMusic.svelte";
 	import KitchenSink from "./examples/KitchenSink.svelte";
 </script>
+
+<svelte:head>
+	<link href="https://myCDN.com/prism@v1.x/themes/prism.css" rel="stylesheet" />
+</svelte:head>
 
 <UnionStyle />
 
@@ -46,6 +51,9 @@
 		</Route>
 		<Route path="/components/text">
 			<TextDocs />
+		</Route>
+		<Route path="/components/link">
+			<LinkDocs />
 		</Route>
 		<Route path="/examples/apple-music">
 			<AppleMusic />

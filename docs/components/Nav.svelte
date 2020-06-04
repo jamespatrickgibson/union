@@ -44,6 +44,11 @@
 						<Link to="/components/text" type="implied">Text</Link>
 					</Text>
 				</ListItem>
+				<ListItem>
+					<Text>
+						<Link to="/components/link" type="implied">Link</Link>
+					</Text>
+				</ListItem>
 			</List>
 		</NavigationSection>
 		<!--
