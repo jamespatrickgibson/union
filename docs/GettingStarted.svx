@@ -12,9 +12,25 @@ The getting started page should provide information for how to get up and runnin
 
 ### Add Theme and Core CSS
 
+#### Option 1: Include in your Svelte project
+
+Add this code to your `app.svelte` file, or wherever you intent to include svelte components.
+
 ```svelte
-<link rel="stylesheet" href="https://unpkg.com/union-design-system/dist/theme.css"/>
-<link rel="stylesheet" href="https://unpkg.com/union-design-system/dist/union.css"/>
+<svelte:head>
+	<link rel="stylesheet" href="https://unpkg.com/union-design-system/dist/theme.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/union-design-system/dist/union.css"/>
+</svelte:head>
+```
+
+#### Option 2: Add directly to any HTML file
+
+```svelte
+<head>
+	<!-- Any other tags in the head of your document -->
+	<link rel="stylesheet" href="https://unpkg.com/union-design-system/dist/theme.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/union-design-system/dist/union.css"/>
+</head>
 ```
 
 ## Using Components

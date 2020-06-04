@@ -20,7 +20,7 @@
 			max-width: 65ch;
 		}
 		:global(h4:not(.un-text)) {
-			@include text-preset(6);
+			@include text-preset(5);
 			font-weight: var(--weight-bold);
 			margin-top: baseline(6);
 			max-width: 65ch;
