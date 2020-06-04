@@ -18,6 +18,13 @@
 	let selectedShadow = "0";
 	let modes = ["white", "light", "dark", "black"];
 	let selectedMode = "light";
+	$: elementExample = `<Box
+	space="${selectedSpace}"
+	radius="${selectedRadius}"
+	shadow="${selectedShadow}">
+	Box
+</Box>
+`;
 
 	function resetControls() {
 		selectedSpace = "4";
@@ -188,15 +195,7 @@
 			<div class="playground__code">
 				<Box>
 					<Text weight="bold">Code</Text>
-					<Prism language="html">
-						{`<Box
-	space="${selectedSpace}"
-	radius="${selectedRadius}"
-	shadow="${selectedShadow}">
-	Box
-</Box>
-`}
-					</Prism>
+					<Prism language="html" source="{elementExample}" />
 				</Box>
 			</div>
 		</Stack>
