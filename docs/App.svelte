@@ -11,6 +11,7 @@
 	import GettingStarted from "./GettingStarted.svx";
 	import TextDocs from "./Text.svx";
 	import LinkDocs from "./Link.svelte";
+	import FormFieldDocs from "./FormField.svelte";
 
 	// Doc Components
 	import Header from "./components/Header.svelte";
@@ -54,6 +55,9 @@
 		</Route>
 		<Route path="/components/link">
 			<LinkDocs />
+		</Route>
+		<Route path="/components/form-field">
+			<FormFieldDocs />
 		</Route>
 		<Route path="/examples/apple-music">
 			<AppleMusic />

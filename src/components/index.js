@@ -4,6 +4,7 @@ export { default as Control } from "./Control.svelte";
 export { default as Divider } from "./Divider.svelte";
 export { default as FixedImage } from "./FixedImage.svelte";
 export { default as Field } from "./Field.svelte";
+export { default as FormField } from "./FormField.svelte";
 export { default as Frame } from "./Frame.svelte";
 export { default as Inline } from "./Inline.svelte";
 export { default as Label } from "./Label.svelte";

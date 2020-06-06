@@ -1,0 +1,146 @@
+/// Form Control Mixins
+///
+// Creates standardized mixins for form elements
+@use "../utils/all" as *;
+
+// Control - Sets foundation for all control elements
+$control-height: grid-8pt(7);
+$control-line-height: 1.5;
+$control-padding-horizontal: var(--space-3);
+$control-padding-vertical: var(--space-3);
+$control-radius: var(--size-border-radius-2);
+$control-border-width: var(--size-border-1);
+$control-font-size: 1rem;
+
+@mixin control {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	height: $control-height;
+	border: $control-border-width solid transparent;
+	border-radius: $control-radius;
+	padding: 0 $control-padding-horizontal;
+	position: relative;
+	font-size: $control-font-size;
+	line-height: $control-line-height;
+
+	&[disabled],
+	fieldset[disabled] & {
+		cursor: not-allowed;
+	}
+}
+
+// Placeholder - Automates generation of placeholder text styling
+@mixin placeholder {
+	$placeholders: ":-moz" ":-webkit-input" "-moz" "-ms-input";
+
+	@each $placeholder in $placeholders {
+		&:#{$placeholder}-placeholder {
+			@content;
+		}
+	}
+}
+
+// Field - Creates a wrapper container for form controls
+@mixin field {
+	margin-bottom: var(--space-3);
+}
+
+@mixin field-horizontal {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: var(--space-3);
+
+	* + *:not(:last-child) {
+		margin-right: var(--space-2);
+	}
+
+	.un-label {
+		flex: 0 0 100%;
+	}
+
+	.un-control {
+		flex: 0 0 calc(50% - 4px);
+	}
+}
+
+.un-field {
+	@include field;
+}
+
+.un-field-horizontal {
+	@include field-horizontal;
+}
+
+// Label - Labels for form controls
+@mixin label {
+	@include text-preset(2);
+
+	color: $text-subtle;
+	display: block;
+	font-weight: $weight-medium;
+	line-height: baseline-scale(3);
+}
+
+.un-label {
+	@include label;
+
+	height: baseline-scale(3);
+	display: flex;
+}
+
+// Input - Sets styling and shareable state to input contols
+$input-background: $white;
+$input-color: $text;
+$input-border-color: $blue-grey-200;
+
+$input-focus-box-shadow-size: 0 0 2px 0.125em;
+$input-focus-border-color: $link;
+$input-focus-box-shadow-color: $link;
+
+$input-disabled-background-color: $blue-grey-100;
+$input-disabled-border-color: $blue-grey-300;
+$input-disabled-color: $blue-grey-300;
+$input-disabled-placeholder-color: $blue-grey-300;
+
+$input-placeholder-color: $blue-grey-500;
+
+@mixin input {
+	@include control;
+
+	background: $input-background;
+	color: $input-color;
+	border-color: $input-border-color;
+	transition: all $speed-fastest ease-in-out;
+	width: 100%;
+
+	@include placeholder {
+		color: $input-placeholder-color;
+		font-weight: $weight-light;
+	}
+
+	&:focus,
+	&.is-focused,
+	&:active,
+	&.is-active {
+		box-shadow: $input-focus-box-shadow-size
+			rgba($input-focus-box-shadow-color, 0.25);
+	}
+
+	&[disabled],
+	fieldset[disabled] & {
+		background-color: $input-disabled-background-color;
+		border-color: $input-disabled-border-color;
+		box-shadow: none;
+		color: $input-disabled-color;
+
+		@include placeholder {
+			color: $input-disabled-placeholder-color;
+		}
+	}
+}
+
+// Standard Inputs
+.un-input {
+	@include input;
+}
