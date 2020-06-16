@@ -10,6 +10,10 @@
 		display: grid;
 		grid-template-columns: 15rem 1fr;
 		min-height: 100vh;
+
+		:global(.example) {
+			margin-top: var(--space-3);
+		}
 	}
 </style>
 
