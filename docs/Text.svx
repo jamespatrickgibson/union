@@ -11,6 +11,11 @@
 <Example>
   <Text weight="normal">Normal</Text>
   <Text weight="bold">Bold</Text>
+
+```html
+<Text weight="normal">Normal</Text> <Text weight="bold">Bold</Text>
+```
+
 </Example>
 
 ## Typographic Scale
