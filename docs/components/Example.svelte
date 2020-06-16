@@ -11,6 +11,11 @@
 			padding: var(--space-3);
 			border-bottom: 0.0625rem solid var(--color-border);
 		}
+
+		:global(pre[class*="language-"]) {
+			margin: calc(-1 * var(--space-3));
+			margin-top: var(--space-3);
+		}
 	}
 </style>
 
