@@ -1,9 +1,14 @@
 <script>
 	import { Text } from "../src/components/index.js";
+  import Example from "./components/Example.svelte";
   import PageHeader from "./components/PageHeader.svelte";
 </script>
 
 <PageHeader title="Text" desc="A passage of text, including various components (i.e. article, blog post)" />
+
+## Example
+
+<Example />
 
 ## Typographic Scale
 
