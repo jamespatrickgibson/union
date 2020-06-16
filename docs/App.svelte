@@ -22,10 +22,6 @@
 	import KitchenSink from "./examples/KitchenSink.svelte";
 </script>
 
-<svelte:head>
-	<link href="https://myCDN.com/prism@v1.x/themes/prism.css" rel="stylesheet" />
-</svelte:head>
-
 <UnionStyle />
 
 <LayoutDocs>
