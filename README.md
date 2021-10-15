@@ -1,4 +1,10 @@
-# create-svelte
+# Union
+
+Union is a design system boilerplate and component library which is inspired by traditional graphic design theories and practices.
+
+_Union should be considered pre-release and currently unstable for production use._
+
+## create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
