@@ -1,11 +1,11 @@
 <script context="module">
 	import '../styles/global.scss';
-
-	import { Text } from '$lib/components';
-	import { Nav } from '$lib/doc-components';
+	import { Header, Nav } from '$lib/doc-components';
 </script>
 
-<header><Text><a href="/">Design With Union</a></Text></header>
+<Header />
 <Nav />
 
-<slot />
+<main>
+	<slot />
+</main>

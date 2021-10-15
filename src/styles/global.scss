@@ -1,5 +1,45 @@
 @use 'utils' as *;
 
+:root {
+	// Typography
+	--font-family-default: sans-serif;
+	--font-weight-normal: 400;
+	--type-scale-1: 0.625rem; /* 10pt */
+	--type-scale-2: 0.75rem; /* 12pt */
+	--type-scale-3: 0.875rem; /* 14pt */
+	--type-scale-4: 1rem; /* 16pt */
+	--type-scale-5: 1.125rem; /* 18pt */
+	--type-scale-6: 1.3125rem; /* 21pt */
+	--type-scale-7: 1.5rem; /* 24pt */
+	--type-scale-8: 1.875rem; /* 30pt */
+	--type-scale-9: 2.25rem; /* 36pt */
+	--type-scale-10: 3rem; /* 48pt */
+	--type-scale-11: 3.75rem; /* 60pt */
+	--type-scale-12: 4.5rem; /* 72pt */
+
+	// Spacing
+	--spacing-unit: 0.5rem;
+	--spacing-increment: 1.65;
+
+	--space-1: var(--spacing-unit);
+	--space-2: calc(var(--space-1) * var(--spacing-increment));
+	--space-3: calc(var(--space-2) * var(--spacing-increment));
+	--space-4: calc(var(--space-3) * var(--spacing-increment));
+	--space-5: calc(var(--space-4) * var(--spacing-increment));
+	--space-6: calc(var(--space-5) * var(--spacing-increment));
+	--space-7: calc(var(--space-6) * var(--spacing-increment));
+
+	// Color
+	--color-black: black;
+	--color-white: white;
+	--color-gray: lightgray;
+}
+
+html {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
+	padding: 0;
 }

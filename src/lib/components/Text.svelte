@@ -54,7 +54,7 @@
 
 	// Resets any typography back to a default size/state
 	@mixin component-text-reset() {
-		font-family: $font-family-default;
+		font-family: var(--font-family-default);
 		font-weight: unset;
 		font-style: normal;
 		letter-spacing: 0;
