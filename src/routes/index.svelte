@@ -7,5 +7,5 @@
 </svelte:head>
 
 <Text>A Svelte based component library</Text>
-<Text>WIP</Text>
+<Text size={2}>WIP</Text>
 <Text><a href="https://github.com/jamespatrickgibson/union">Github</a></Text>

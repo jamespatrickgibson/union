@@ -14,7 +14,18 @@ $size-text-6-scale: 20px;
 $size-text-7-scale: 24px;
 $size-text-8-scale: 32px;
 $size-text-9-scale: 64px;
-$size-text-1-line-height: 10px;
+
+$type-scale: (
+	'1': $size-text-1-scale,
+	'2': $size-text-2-scale,
+	'3': $size-text-3-scale,
+	'4': $size-text-4-scale,
+	'5': $size-text-5-scale,
+	'6': $size-text-6-scale,
+	'7': $size-text-7-scale,
+	'8': $size-text-8-scale,
+	'9': $size-text-9-scale
+);
 
 // Color
 $color-text-default: #333;
