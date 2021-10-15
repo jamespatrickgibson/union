@@ -1,0 +1,5 @@
+{
+  "editor.default_syntax" : "svelte",
+  "prettier.format-on-save" : "Enable",
+  "workspace.name" : "Union"
+}
